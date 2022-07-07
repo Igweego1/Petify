@@ -1,4 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using Petify.WebApi.Data_Model;
+using Petify.WebApi;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+//Database Connection String
+builder.Services.AddDbContext<PetifyDbContext>(options => options.UseSqlServer(
+    builder.Configuration["ConnectionStrings:DefaultConnection"]));
 
 // Add services to the container.
 

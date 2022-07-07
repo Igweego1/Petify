@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petify.WebApi", "Petify.WebApi\Petify.WebApi.csproj", "{C65B4C0C-C723-4017-9C23-F3991AA3AE90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Petify.WebApi", "Petify.WebApi\Petify.WebApi.csproj", "{C65B4C0C-C723-4017-9C23-F3991AA3AE90}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{672919F0-2F94-4C7E-A4F4-C9D3D5C94276}"
 EndProject
@@ -19,6 +19,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{22261D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{A3039042-371F-4150-8A7D-33122E9C859A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Petify.Core", "Petify.Core\Petify.Core.csproj", "{B8C3E896-B723-4E8B-B623-004B2E82BB36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petify.Abstraction", "Petify.Abstraction\Petify.Abstraction.csproj", "{B8A6C8B9-3971-45B0-8066-250258E9B8FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petify.Facade", "Petify.Facade\Petify.Facade.csproj", "{FFCB1FA7-7DE9-417D-888D-44708A411EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petify.Data", "Petify.Data\Petify.Data.csproj", "{7C5A51C6-072A-43FB-BCA7-71B3B5BAC1E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,12 +37,32 @@ Global
 		{C65B4C0C-C723-4017-9C23-F3991AA3AE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C65B4C0C-C723-4017-9C23-F3991AA3AE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C65B4C0C-C723-4017-9C23-F3991AA3AE90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8C3E896-B723-4E8B-B623-004B2E82BB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C3E896-B723-4E8B-B623-004B2E82BB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C3E896-B723-4E8B-B623-004B2E82BB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C3E896-B723-4E8B-B623-004B2E82BB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A6C8B9-3971-45B0-8066-250258E9B8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A6C8B9-3971-45B0-8066-250258E9B8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A6C8B9-3971-45B0-8066-250258E9B8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A6C8B9-3971-45B0-8066-250258E9B8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFCB1FA7-7DE9-417D-888D-44708A411EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCB1FA7-7DE9-417D-888D-44708A411EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCB1FA7-7DE9-417D-888D-44708A411EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCB1FA7-7DE9-417D-888D-44708A411EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C5A51C6-072A-43FB-BCA7-71B3B5BAC1E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5A51C6-072A-43FB-BCA7-71B3B5BAC1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5A51C6-072A-43FB-BCA7-71B3B5BAC1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5A51C6-072A-43FB-BCA7-71B3B5BAC1E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C65B4C0C-C723-4017-9C23-F3991AA3AE90} = {672919F0-2F94-4C7E-A4F4-C9D3D5C94276}
+		{B8C3E896-B723-4E8B-B623-004B2E82BB36} = {22261DAF-E8B8-433E-B2A2-1B14FD64EC5E}
+		{B8A6C8B9-3971-45B0-8066-250258E9B8FD} = {0A35821F-EDDD-47A0-9603-40D9CCEFADDC}
+		{FFCB1FA7-7DE9-417D-888D-44708A411EC6} = {0A35821F-EDDD-47A0-9603-40D9CCEFADDC}
+		{7C5A51C6-072A-43FB-BCA7-71B3B5BAC1E6} = {CF9BE39B-A40C-4C7B-91EF-4E50DBAFC7C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5896384A-ACEE-4D6C-9A26-1F23A2136055}
