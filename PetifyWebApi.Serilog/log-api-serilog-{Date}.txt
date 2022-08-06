@@ -1,0 +1,352 @@
+[2022-07-25 09:41:04.480] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-07-25 09:56:47.952] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-07-25 09:57:13.317] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> LogOut was Successful! See you Soon!
+[2022-07-25 10:10:51.924] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-07-25 11:03:47.744] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-07-25 11:18:35.895] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-07-25 11:19:20.051] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> LogOut was Successful! See you Soon!
+[2022-07-29 09:05:18.836] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-07-29 10:30:53.028] [Error]  () <Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware> An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Petify.Abstraction.IHumanAccountService' while attempting to activate 'Petify.WebApi.Controllers.HumanAccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method181(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-07-29 10:46:00.822] [Error]  () <Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware> An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Petify.WebApi.Controllers.HumanAccountController.RetrieveUsersById(Int32 userId) in C:\Users\IGWILO OBIORA\source\repos\Petify\Petify.WebApi\Controllers\HumanAccountController.cs:line 154
+   at lambda_method157(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-07-29 12:26:46.109] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-07-29 12:30:08.048] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-07-29 12:31:30.315] [Error]  () <Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware> An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Petify.Abstraction.IBillingItem' while attempting to activate 'Petify.WebApi.Controllers.ManageBillingController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method219(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-07-29 12:32:42.267] [Error]  () <Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware> An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Petify.Abstraction.IBillingItem' while attempting to activate 'Petify.WebApi.Controllers.ManageBillingController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method219(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-07-29 12:35:01.874] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-07-29 12:35:36.417] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-07-29 12:37:48.073] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-07-29 15:03:43.701] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-07-29 15:06:37.143] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-07-29 15:26:44.813] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-07-29 16:14:54.075] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-07-29 16:25:27.775] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-07-30 20:36:38.272] [Error]  () <Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware> An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Petify.Abstraction.IGroomingService' while attempting to activate 'Petify.WebApi.Controllers.ManageGroomingController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method181(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-07-30 22:48:04.592] [Error]  () <Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware> An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Petify.Abstraction.IBookingService' while attempting to activate 'Petify.WebApi.Controllers.ManageBookingController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method187(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-07-30 22:50:48.273] [Error]  () <Microsoft.EntityFrameworkCore.Database.Command> Failed executing DbCommand ("586"ms) [Parameters=["@p0='?' (Precision = 1) (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?' (DbType = DateTime), @p5='?' (Size = 450), @p6='?' (DbType = Int32), @p7='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Bookings] ([Amount], [BillingId], [CheckInDate], [CheckOutDate], [Created], [CreatedBy], [ServiceId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id]
+FROM [Bookings]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+[2022-07-30 22:50:48.481] [Error]  () <Microsoft.EntityFrameworkCore.Update> An exception occurred in the database while saving changes for context type '"Petify.Data.DBModels.PetifyLiveContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Bookings_Services\". The conflict occurred in database \"PetifyLive\", table \"dbo.Services\", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d0a3e084-d62b-48dc-b7f1-9c116fe39679
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Bookings_Services". The conflict occurred in database "PetifyLive", table "dbo.Services", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d0a3e084-d62b-48dc-b7f1-9c116fe39679
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+[2022-07-30 22:50:49.634] [Error]  () <Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware> An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Bookings_Services". The conflict occurred in database "PetifyLive", table "dbo.Services", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d0a3e084-d62b-48dc-b7f1-9c116fe39679
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Petify.Facade.BookingService.SaveBooking(Booking value) in C:\Users\IGWILO OBIORA\source\repos\Petify\Petify.Facade\BookingService.cs:line 62
+   at Petify.WebApi.Controllers.ManageBookingController.RequestBookingService(BookingViewModel model) in C:\Users\IGWILO OBIORA\source\repos\Petify\Petify.WebApi\Controllers\ManageBookingController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-07-31 17:39:40.482] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-01 09:16:22.306] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Registering User......
+[2022-08-01 09:16:43.709] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-01 09:47:42.488] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Registering User......
+[2022-08-01 09:47:59.615] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-01 09:53:15.514] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-01 09:56:16.454] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-01 10:07:43.247] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-01 10:43:52.300] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Registering User......
+[2022-08-01 10:44:48.288] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-01 10:59:00.246] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-01 11:04:27.151] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-01 14:49:50.078] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 12:06:26.720] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 12:06:53.189] [Error]  () <Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware> An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: Identity.Application, Identity.External, Identity.TwoFactorRememberMe, Identity.TwoFactorUserId. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-08-05 12:15:08.348] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 12:15:52.864] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 12:16:36.685] [Error]  () <Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware> An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: Identity.Application, Identity.External, Identity.TwoFactorRememberMe, Identity.TwoFactorUserId. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-08-05 12:19:56.915] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 12:20:17.868] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 12:20:32.708] [Error]  () <Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware> An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: Identity.Application, Identity.External, Identity.TwoFactorRememberMe, Identity.TwoFactorUserId. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-08-05 12:31:32.875] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 12:31:52.643] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-05 12:34:19.067] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 12:34:57.230] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-05 12:53:00.819] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 12:53:41.424] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-05 12:58:35.979] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 12:59:56.834] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-05 13:33:20.208] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 13:47:20.430] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Creating A Users Pet Profile...
+[2022-08-05 13:52:17.106] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 13:52:49.104] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-05 13:59:25.199] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 13:59:52.816] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-05 15:06:23.434] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 15:06:31.930] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 15:07:22.776] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-05 15:16:49.386] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 15:17:25.229] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-05 15:22:55.411] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 15:23:29.626] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-05 15:39:42.499] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 15:40:05.781] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-05 15:43:45.073] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 15:44:12.421] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-05 15:47:10.346] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-05 15:55:42.868] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 15:55:54.778] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-05 16:00:53.656] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 16:01:02.416] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-05 16:24:30.587] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 16:24:38.916] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-05 16:32:23.808] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-05 16:32:36.083] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-06 06:59:06.027] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-06 07:01:59.267] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-06 07:02:19.966] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-06 10:35:28.233] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-06 10:35:53.992] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-06 11:20:40.647] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-06 11:20:52.999] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-06 11:21:01.798] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-06 11:22:34.776] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-06 11:22:51.414] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-06 12:03:31.798] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-06 12:03:55.458] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-06 12:10:41.642] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-06 12:10:57.579] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-06 12:11:30.077] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Creating A Users Pet Profile...
+[2022-08-06 12:11:31.137] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-06 12:44:53.897] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-06 12:45:06.788] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-06 12:46:28.126] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Creating A Users Pet Profile...
+[2022-08-06 12:46:28.539] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..

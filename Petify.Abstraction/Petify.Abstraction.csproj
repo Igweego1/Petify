@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Petify.Core\Petify.Core.csproj" />
+    <ProjectReference Include="..\Petify.Data\Petify.Data.csproj" />
+  </ItemGroup>
+
 </Project>

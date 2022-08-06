@@ -244,9 +244,6 @@ namespace Petify.WebApi.Migrations
                     b.Property<DateTime>("DischargeDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("PetId")
-                        .HasColumnType("int");
-
                     b.Property<int>("PetServicesId")
                         .HasColumnType("int");
 
