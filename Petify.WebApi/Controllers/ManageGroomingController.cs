@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Petify.Abstraction;
+using Petify.Core.Model;
 using Petify.Data.DBModels;
 using Petify.WebApi.Model;
 using System.Security.Claims;
@@ -24,11 +26,12 @@ namespace Petify.WebApi.Controllers
 
         }
 
-        [Authorize]
+       
         [HttpPost]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Route("RequestGroomingService")]
 
-        public async Task<IActionResult> RequestGroomingService([FromBody] GroomingViewModel model)
+        public async Task<IActionResult> RequestGroomingService([FromBody] GroomViewModel model)
         {
             _logger.LogInformation("Requesting For A grooming Service...");
             if (!ModelState.IsValid)
@@ -54,7 +57,7 @@ namespace Petify.WebApi.Controllers
 
         //Retrieve All Groomers
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpGet]
         [Route("GetAllGrooming")]
 

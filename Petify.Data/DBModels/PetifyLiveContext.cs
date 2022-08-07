@@ -235,7 +235,6 @@ namespace Petify.Data.DBModels
                 entity.HasOne(d => d.User)
                     .WithMany(p => p.Groomings)
                     .HasForeignKey(d => d.UserId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Grooming_AspNetUsers");
             });
 

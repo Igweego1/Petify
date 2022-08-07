@@ -1,0 +1,62 @@
+﻿@model FeedBackModelComponents
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    //<h2>@ViewData["RegisteredPetProfiles"]  </h2>
+    //<div class="row col-12">
+        //<div class="col-6">
+        //    <table>
+        //        <thead>
+        //        <th>Id</th>
+        //        <th>Message</th>
+        //        <th>CreatedBy</th>
+               
+        //        </thead>
+
+
+        //        <tbody>
+        //            @if (Model.feedbacks != null)
+        //            {
+        //                foreach (var item in Model.feedbacks)
+        //                {
+        //                    <tr>
+        //                        <td>@item.Id </td>
+        //                        <td>@item.Message</td>
+        //                        <td>@item.CreatedBy</td>
+        //                    </tr>
+        //                }
+        //            }
+        //        </tbody>
+
+
+        //        <tfoot></tfoot>
+        //    </table>
+        //</div>
+        //<div class="col-6">
+            <form class="horizontal-form" asp-action="SendFeedBack">
+
+                <div class="form-group">
+                    <label>We are always happy to hear from you</label>
+                    <input type="text" required asp-for="feedback.Message" class="form-control" />
+                    <span asp-validation-for="feedback.Message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Date</label>
+                    <input type="datetime" required asp-for="feedback.Created" class="form-control" />
+                    <span asp-validation-for="feedback.Created"></span>
+                </div>
+
+
+                <hr />
+
+                <div class="form-group">
+                    <input type="submit" value="Send" />
+                </div>
+            </form>
+
+        //</div>
+    //</div>
+}

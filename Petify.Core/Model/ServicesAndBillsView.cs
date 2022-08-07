@@ -6,24 +6,16 @@ using System.Threading.Tasks;
 
 namespace Petify.Core.Model
 {
-    public class PetTypeViewModel
-    {
-       
-            public string Name { get; set; }
-            public int Id { get; set; }
-    }
-
-    public class PetGenderViewModel
+    public class ServicesAndBillsView
     {
         public string Name { get; set; }
         public int Id { get; set; }
-
     }
 
-    public class PetAllergyViewModel
+
+    public class BillsViewModel
     {
         public string Name { get; set; }
         public int Id { get; set; }
-
     }
 }

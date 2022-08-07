@@ -38,6 +38,36 @@ namespace Petify.Consume.Controllers
 
             petTypes.Insert(0, new PetTypeViewModel { Id = 0, Name = "Select Pet" });
 
+
+            List<PetGenderViewModel> petGender = new List<PetGenderViewModel>()
+            {
+                new PetGenderViewModel { Id = 1, Name = "Male"},
+                new PetGenderViewModel {Id = 2, Name = "Female"}
+            };
+            ViewBag.Gender = petGender.Select(i => new SelectListItem
+            {
+                Value = i.Id.ToString(),
+                Text = i.Name,
+            }).ToList();
+            petGender.Insert(0, new PetGenderViewModel { Id = 0, Name = " Select Gender" });
+
+            List<PetAllergyViewModel> petAllergy = new List<PetAllergyViewModel>()
+            {
+                new PetAllergyViewModel { Id = 2, Name ="Chocolate"},
+                new PetAllergyViewModel { Id = 3, Name ="Onions and Garlic"},
+                new PetAllergyViewModel {Id = 4, Name ="Grapes and Raisins"},
+                new PetAllergyViewModel { Id = 5, Name ="Milk and Other Diary Products"},
+                new PetAllergyViewModel { Id = 6, Name = "Nuts"},
+                 new PetAllergyViewModel { Id = 7, Name = "None"}
+            };
+            ViewBag.Allergy = petAllergy.Select(i => new SelectListItem
+            {
+                Value = i.Id.ToString(),
+                Text = i.Name,
+            }).ToList();
+
+
+
             var token = Request.Cookies["access_token"].ToString();
             var handler = new HttpClientHandler()
             {

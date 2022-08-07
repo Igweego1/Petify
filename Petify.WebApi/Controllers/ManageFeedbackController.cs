@@ -1,9 +1,10 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Petify.Abstraction;
+using Petify.Core.Model;
 using Petify.Data.DBModels;
-using Petify.WebApi.Model;
 using System.Security.Claims;
 
 namespace Petify.WebApi.Controllers
@@ -22,7 +23,7 @@ namespace Petify.WebApi.Controllers
 
         }
 
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpPost]
         [Route("CreatingFeedback")]
 
@@ -54,7 +55,7 @@ namespace Petify.WebApi.Controllers
 
         //Retrieve All FeedBacks
 
-        [Authorize(Roles ="Admin")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpGet]
         [Route("RetrieveFeedBacks")]
 

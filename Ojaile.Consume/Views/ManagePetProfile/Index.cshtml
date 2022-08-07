@@ -58,7 +58,7 @@
 
                 <div class="form-group">
                     <label>Pet Gender</label>
-                    <input type="text" required asp-for="profile.PetGenderId" class="form-control" />
+                    <select asp-for="profile.PetGenderId" asp-items="ViewBag.Gender" class="form-control"></select>
                     <span asp-validation-for="profile.PetGenderId"></span>
                 </div>
 
@@ -72,7 +72,7 @@
 
                 <div class="form-group">
                     <label>Allergy</label>
-                    <input type="text" required asp-for="profile.AllergyId" class="form-control" />
+                    <select asp-for="profile.AllergyId" asp-items="ViewBag.Allergy" class="form-control"></select>
                     <span asp-validation-for="profile.AllergyId"></span>
                 </div>
 
@@ -98,7 +98,7 @@
                 <hr />
 
                 <div class="form-group">
-                    <input type="submit" value="Create your Pet Profile" />
+                    <input type="submit" value="Create" />
                 </div>
             </form>
 
