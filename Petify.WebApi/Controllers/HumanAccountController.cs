@@ -205,6 +205,8 @@ namespace Petify.WebApi.Controllers
                 new Claim(ClaimTypes.Name, user.FirstName +' '+ user.LastName),
                 new Claim(ClaimTypes.Email, user.Email),
                 new Claim(ClaimTypes.MobilePhone, user.PhoneNumber),
+                new Claim(ClaimTypes.Role, "Customer"),
+                new Claim(ClaimTypes.Role, "Admin")
             };
             var token = new JwtSecurityToken(
                 _configuration["Jwt:Issuer"],

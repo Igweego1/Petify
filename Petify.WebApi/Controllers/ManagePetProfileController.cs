@@ -68,6 +68,7 @@ namespace Petify.WebApi.Controllers
         //Retrieve All Pet Profiles
 
        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+       [Authorize(Roles = "Admin")]
         [HttpGet]
         [Route("RetrieveProfiles")]
 

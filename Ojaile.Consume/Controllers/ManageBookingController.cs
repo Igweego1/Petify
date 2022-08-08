@@ -51,6 +51,9 @@ namespace Petify.Consume.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateBooking([FromForm] BookingComponents model)
         {
+            model.booking.ServiceId = 3;
+            model.booking.BillingId = 3;
+
             StringContent content = new StringContent(JsonConvert.SerializeObject(model.booking), Encoding.UTF8, "application/json");
             string endpoint = apiUrl + "ManageBooking/RequestBookingService";
 

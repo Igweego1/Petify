@@ -25,6 +25,7 @@ namespace Petify.Consume.Controllers
             PetProfileComponents petComponents = new PetProfileComponents();
             petComponents.profile = new PetProfileViewModel();
             string endpoint = apiUrl + "ManagePetProfile/RetrieveProfiles";
+
             List<PetTypeViewModel> petTypes = new List<PetTypeViewModel>()
             {
                 new PetTypeViewModel{Id = 1, Name = "Dog"},
@@ -35,7 +36,6 @@ namespace Petify.Consume.Controllers
                 Value = i.Id.ToString(),
                 Text = i.Name,
             }).ToList();
-
             petTypes.Insert(0, new PetTypeViewModel { Id = 0, Name = "Select Pet" });
 
 
@@ -51,24 +51,48 @@ namespace Petify.Consume.Controllers
             }).ToList();
             petGender.Insert(0, new PetGenderViewModel { Id = 0, Name = " Select Gender" });
 
-            List<PetAllergyViewModel> petAllergy = new List<PetAllergyViewModel>()
+
+            var token = Request.Cookies["access_token"].ToString();
+
+            string endpointAllergy = apiUrl + "ManageAllergies/RetrieveAllergies";
+
+            List<PetAllergyViewModel> petAllergies = new List<PetAllergyViewModel>();
+
+            using (HttpClient client = new HttpClient())
             {
-                new PetAllergyViewModel { Id = 2, Name ="Chocolate"},
-                new PetAllergyViewModel { Id = 3, Name ="Onions and Garlic"},
-                new PetAllergyViewModel {Id = 4, Name ="Grapes and Raisins"},
-                new PetAllergyViewModel { Id = 5, Name ="Milk and Other Diary Products"},
-                new PetAllergyViewModel { Id = 6, Name = "Nuts"},
-                 new PetAllergyViewModel { Id = 7, Name = "None"}
-            };
-            ViewBag.Allergy = petAllergy.Select(i => new SelectListItem
+
+                client.BaseAddress = new Uri(endpointAllergy);
+                client.DefaultRequestHeaders.Authorization =
+               new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                // HttpResponseMessage response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
+                var response = await client.GetAsync(endpointAllergy); //this get response from 
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    petAllergies = JsonConvert.DeserializeObject<List<PetAllergyViewModel>>(content);
+                }
+            }
+
+            //List<PetAllergyViewModel> petAllergy = new List<PetAllergyViewModel>()
+            //{
+            //    new PetAllergyViewModel { Id = 2, Name ="Chocolate"},
+            //    new PetAllergyViewModel { Id = 3, Name ="Onions and Garlic"},
+            //    new PetAllergyViewModel {Id = 4, Name ="Grapes and Raisins"},
+            //    new PetAllergyViewModel { Id = 5, Name ="Milk and Other Diary Products"},
+            //    new PetAllergyViewModel { Id = 6, Name = "Nuts"},
+            //     new PetAllergyViewModel { Id = 7, Name = "None"}
+            //};
+
+            ViewBag.Allergy = petAllergies.Select(i => new SelectListItem
             {
                 Value = i.Id.ToString(),
-                Text = i.Name,
+                Text = i.AllergyName,
             }).ToList();
 
 
 
-            var token = Request.Cookies["access_token"].ToString();
+            
             var handler = new HttpClientHandler()
             {
                 AllowAutoRedirect = false,

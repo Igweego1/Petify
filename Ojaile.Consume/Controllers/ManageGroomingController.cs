@@ -53,9 +53,12 @@ namespace Petify.Consume.Controllers
 
 
 
-        [HttpPost]
+        [HttpPost] 
         public async Task<IActionResult> CreateGrooming([FromForm] GroomModelComponents model)
         {
+            model.grooming.ServiceId = 1;
+            model.grooming.BillingId = 2;
+
             StringContent content = new StringContent(JsonConvert.SerializeObject(model.grooming), Encoding.UTF8, "application/json");
             string endpoint = apiUrl + "ManageGrooming/RequestGroomingService";
             var token = Request.Cookies["access_token"].ToString();
