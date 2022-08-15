@@ -25,12 +25,12 @@ namespace Petify.Facade
 
         public List<Service> GetListServices()
         {
-           return _context.Services.ToList();
+            return _context.Services.ToList();
         }
 
         public Service GetServiceById(int Id)
         {
-            if(Id != 0)
+            if (Id != 0)
             {
                 var result = _context.Services.Where(x => x.Id == Id).FirstOrDefault();
                 return result;
@@ -58,7 +58,7 @@ namespace Petify.Facade
 
         public void SaveService(Service value)
         {
-            if(value != null)
+            if (value != null)
             {
                 _context.Services.Add(value);
                 _context.SaveChanges();
@@ -67,11 +67,12 @@ namespace Petify.Facade
 
         public void UpdateService(int Id, Service value)
         {
-            if(Id != 0)
+            if (Id != 0)
             {
                 var serviceContains = _context.Services.FirstOrDefault(p => p.Id == Id);
 
                 serviceContains.ServiceName = value.ServiceName;
+                serviceContains.PriceUnit = value.PriceUnit;
 
                 _context.Entry(serviceContains).State = EntityState.Modified;
                 _context.SaveChanges();

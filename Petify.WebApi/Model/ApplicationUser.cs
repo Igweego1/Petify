@@ -14,9 +14,5 @@ namespace Petify.WebApi.Model
         public string? LastName { get; set; }
         public DateTime Created { get; set; }
 
-        ////[ForeignKey("PetId")]
-        ////public int PetId { get; set; }
-        //public Pet Pet { get; set; }
-
     }
 }

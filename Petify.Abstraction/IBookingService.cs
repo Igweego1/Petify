@@ -9,7 +9,7 @@ namespace Petify.Abstraction
 {
     public interface IBookingService
     {
-        void SaveBooking (Booking value);
+        void SaveBooking(Booking value);
         void DeleteBooking(int Id);
         void UpdateBooking(int Id, Booking value);
         Booking GetBookingByName(string name);

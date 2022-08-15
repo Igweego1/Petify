@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Mvc;
 using Petify.Abstraction;
 using Petify.Core.Model;
 using Petify.Data.DBModels;
-//using Petify.WebApi.Model;
 using System.Security.Claims;
 
 namespace Petify.WebApi.Controllers
@@ -23,6 +22,7 @@ namespace Petify.WebApi.Controllers
         }
 
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        //[Authorize]
         [HttpPost]
         [Route("RequestBookingService")]
 
@@ -39,12 +39,8 @@ namespace Petify.WebApi.Controllers
 
             Booking booking = new Booking();
 
-            booking.CheckInDate = DateTime.Now;
-            booking.CheckOutDate = DateTime.Now;
             booking.ServiceId = model.ServiceId;
-            booking.BillingId = model.BillingId;
-            booking.Amount = model.Amount;
-            booking.UserId = userId;
+            booking.PetId = model.PetId;
             booking.Created = DateTime.Now;
             booking.CreatedBy = userId;
 
@@ -55,7 +51,8 @@ namespace Petify.WebApi.Controllers
 
         //Retrieve All Bookings
 
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         [Route("GetAllBookings")]
 

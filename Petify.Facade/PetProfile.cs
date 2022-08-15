@@ -20,7 +20,7 @@ namespace Petify.Facade
 
         public void DeletePetProfile(int Id)
         {
-           var petDetails = _db.Pets.FirstOrDefault(p => p.Id == Id);
+            var petDetails = _db.Pets.FirstOrDefault(p => p.Id == Id);
             _db.Entry(petDetails).State = EntityState.Deleted;
             _db.SaveChanges();
         }
@@ -30,9 +30,9 @@ namespace Petify.Facade
             return _db.Pets.ToList();
         }
 
-        public  Pet GetPetProfileById(int Id)
+        public Pet GetPetProfileById(int Id)
         {
-            if(Id != 0)
+            if (Id != 0)
             {
                 var result = _db.Pets.Where(p => p.Id == Id).FirstOrDefault();
                 return result;
@@ -69,7 +69,7 @@ namespace Petify.Facade
 
         public void UpdatePetProfile(int Id, Pet value)
         {
-            if(Id != 0)
+            if (Id != 0)
             {
                 var petDetails = _db.Pets.FirstOrDefault(p => p.Id == Id);
 

@@ -26,7 +26,7 @@ namespace Petify.WebApi.Controllers
         }
 
         //To Create Pet Profile 
-
+       // [Authorize]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpPost]
         [Route("CreatePetProfile")]
@@ -68,7 +68,7 @@ namespace Petify.WebApi.Controllers
         //Retrieve All Pet Profiles
 
        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
-       [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         [Route("RetrieveProfiles")]
 
@@ -81,7 +81,8 @@ namespace Petify.WebApi.Controllers
 
 
         //Get Pet Profile by Id
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+       // [Authorize]
         [HttpGet]
         [Route("GetProfile/{Id}")]
 
@@ -94,8 +95,9 @@ namespace Petify.WebApi.Controllers
 
         //Update Pet Profile
 
-        [Authorize]
-        [HttpPut]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+       // [Authorize]
+        [HttpPost]
         [Route("UpdateProfile/{Id}")]
 
         public async Task<IActionResult> UpdateProfile([FromBody] PetProfileViewModel petModel, int Id)
@@ -110,6 +112,7 @@ namespace Petify.WebApi.Controllers
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
             Pet pet = new Pet();
+
             pet.PetName = petModel.PetName;
             pet.PetTypeId = petModel.PetTypeId;
             pet.PetGenderId = petModel.PetGenderId;
@@ -131,8 +134,8 @@ namespace Petify.WebApi.Controllers
 
 
         //Delete Pet Profile By Id
-
-        [Authorize(Roles ="Admin")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize(Roles = "Admin")]
         [HttpDelete]
         [Route("DeleteProfile/{Id}")]
         public async Task<IActionResult> DeleteProfile(int Id)
@@ -140,11 +143,11 @@ namespace Petify.WebApi.Controllers
             _logger.LogInformation("Deleting A pet Profile...");
             _petProfile.DeletePetProfile(Id);
             return Ok();
-            
+
 
         }
 
-       
+
     }
 
 }

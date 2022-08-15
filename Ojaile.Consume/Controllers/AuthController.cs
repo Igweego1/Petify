@@ -45,6 +45,7 @@ namespace Petify.Consume.Controllers
                     Set("first_name", result.firstname, 30);
                     Set("last_name", result.lastname, 30);
                     Set("email", result.email, 30);
+                    Set("user_name", result.username, 30);
 
 
                     //TempData["token"] = result;// JsonConvert.DeserializeObject<string>(result);
@@ -109,6 +110,7 @@ namespace Petify.Consume.Controllers
             Remove("access_token");
             Remove("first_name");
             Remove("last_name");
+            Remove("user_name");
             return RedirectToAction("Login");
         }
 

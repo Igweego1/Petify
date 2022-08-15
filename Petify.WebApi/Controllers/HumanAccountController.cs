@@ -23,7 +23,7 @@ namespace Petify.WebApi.Controllers
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly PetifyLiveContext _db;
-       
+
 
         public HumanAccountController(IConfiguration configuration, ILogger<HumanAccountController> logger,
             SignInManager<ApplicationUser> signInManager, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager,
@@ -42,7 +42,7 @@ namespace Petify.WebApi.Controllers
         [HttpPost]
         [AllowAnonymous]
         [Route("Register")]
-        public async Task<IActionResult> Register( [FromBody] HumanViewModel human)
+        public async Task<IActionResult> Register([FromBody] HumanViewModel human)
         {
             _logger.LogInformation("Registering User......");
             if (!ModelState.IsValid)
@@ -50,7 +50,7 @@ namespace Petify.WebApi.Controllers
                 _logger.LogCritical("Model state is bad, check your model");
                 return BadRequest(ModelState);
             }
-               
+
 
             var roleExist = await _roleManager.RoleExistsAsync("Customer");
 
@@ -119,7 +119,7 @@ namespace Petify.WebApi.Controllers
             return BadRequest(ModelState);
         }
 
-        
+
         [HttpPost]
         [Route("Login")]
         public async Task<IActionResult> Login([FromBody] LoginViewModel human)
@@ -129,15 +129,21 @@ namespace Petify.WebApi.Controllers
             {
                 return BadRequest(ModelState);
             }
-                
 
-            var result = await _signInManager.PasswordSignInAsync(human.UserName, human.Password,
+
+            var result = await _signInManager.PasswordSignInAsync(human.Username, human.Password,
                 isPersistent: false, lockoutOnFailure: true);
             if (result.Succeeded)
             {
-                var user = await _userManager.FindByNameAsync(human.UserName);
+                var user = await _userManager.FindByNameAsync(human.Username);
                 var stringtoken = GenerateAuthenticatedUserToken(user);
-                return Ok(new { firstName = user.FirstName, lastName = user.LastName, email = user.Email, token = stringtoken });
+                return Ok(new {
+                    firstName = user.FirstName, 
+                    lastName = user.LastName,
+                    userName = user.UserName,
+                    UserId = user.Id,
+                    email = user.Email,
+                    token = stringtoken });
             }
             return BadRequest(ModelState);
         }
@@ -155,7 +161,7 @@ namespace Petify.WebApi.Controllers
 
         //Retrieve All AspNetUsers
 
-      
+
         [HttpGet]
         [Route("GetAllusers")]
         public List<AspNetUser> GetAllUser()
@@ -186,11 +192,11 @@ namespace Petify.WebApi.Controllers
                 return result;
 
             }
-            else 
+            else
             {
                 return null;
             }
-            
+
         }
 
 
@@ -203,6 +209,7 @@ namespace Petify.WebApi.Controllers
             var claim = new[]
             {
                 new Claim(ClaimTypes.Name, user.FirstName +' '+ user.LastName),
+                new Claim(ClaimTypes.NameIdentifier, user.Id),
                 new Claim(ClaimTypes.Email, user.Email),
                 new Claim(ClaimTypes.MobilePhone, user.PhoneNumber),
                 new Claim(ClaimTypes.Role, "Customer"),

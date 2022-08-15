@@ -26,6 +26,37 @@ namespace Petify.Consume.Controllers
             string endpoint = apiUrl + "ManageBooking/GetAllBookings";
 
             var token = Request.Cookies["access_token"].ToString();
+
+
+            string endpointServices = apiUrl + "ManageServices/RetrieveServices";
+
+            List<ServiceViewModel>  serviceViews = new List<ServiceViewModel>();
+
+            using (HttpClient client = new HttpClient())
+            {
+
+                client.BaseAddress = new Uri(endpointServices);
+                client.DefaultRequestHeaders.Authorization =
+               new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                // HttpResponseMessage response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
+                var response = await client.GetAsync(endpointServices); //this get response from 
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    serviceViews = JsonConvert.DeserializeObject<List<ServiceViewModel>>(content);
+                }
+            }
+
+
+            ViewBag.Service = serviceViews.Select(i => new SelectListItem
+            {
+                Value = i.Id.ToString(),
+                Text = i.ServiceName,
+                
+            }).ToList();
+
+
             var handler = new HttpClientHandler()
             {
                 AllowAutoRedirect = false
@@ -51,8 +82,8 @@ namespace Petify.Consume.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateBooking([FromForm] BookingComponents model)
         {
-            model.booking.ServiceId = 3;
-            model.booking.BillingId = 3;
+            //model.booking.ServiceId = 3;
+           // model.booking.BillingId = 3;
 
             StringContent content = new StringContent(JsonConvert.SerializeObject(model.booking), Encoding.UTF8, "application/json");
             string endpoint = apiUrl + "ManageBooking/RequestBookingService";
@@ -72,7 +103,7 @@ namespace Petify.Consume.Controllers
 
                 if (Response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
-                    //TempData["Profile"] = JsonConvert.SerializeObject(model);
+                    TempData["user"] = model.booking.CreatedBy;
                     return RedirectToAction("Index");
                 }
                 else

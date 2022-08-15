@@ -17,6 +17,6 @@ namespace Petify.Abstraction
         Pet GetPetProfileById(int Id);
         List<Pet> GetPetProfile();
         List<Pet> GetPetProfileByUserId(string userId);
-       
+
     }
 }

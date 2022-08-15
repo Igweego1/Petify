@@ -10,10 +10,11 @@ namespace Petify.Data.DBModels
             AspNetUserClaims = new HashSet<AspNetUserClaim>();
             AspNetUserLogins = new HashSet<AspNetUserLogin>();
             AspNetUserTokens = new HashSet<AspNetUserToken>();
+            Billings = new HashSet<Billing>();
             Bookings = new HashSet<Booking>();
+            Checkings = new HashSet<Checking>();
             FeedBacks = new HashSet<FeedBack>();
-            Groomings = new HashSet<Grooming>();
-            Payments = new HashSet<Payment>();
+            Pets = new HashSet<Pet>();
             Roles = new HashSet<AspNetRole>();
         }
 
@@ -40,10 +41,11 @@ namespace Petify.Data.DBModels
         public virtual ICollection<AspNetUserClaim> AspNetUserClaims { get; set; }
         public virtual ICollection<AspNetUserLogin> AspNetUserLogins { get; set; }
         public virtual ICollection<AspNetUserToken> AspNetUserTokens { get; set; }
+        public virtual ICollection<Billing> Billings { get; set; }
         public virtual ICollection<Booking> Bookings { get; set; }
+        public virtual ICollection<Checking> Checkings { get; set; }
         public virtual ICollection<FeedBack> FeedBacks { get; set; }
-        public virtual ICollection<Grooming> Groomings { get; set; }
-        public virtual ICollection<Payment> Payments { get; set; }
+        public virtual ICollection<Pet> Pets { get; set; }
 
         public virtual ICollection<AspNetRole> Roles { get; set; }
     }

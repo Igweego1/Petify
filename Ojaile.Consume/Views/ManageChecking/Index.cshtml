@@ -1,0 +1,151 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Petify.WebApi.Model
+@model CheckingModelComponents
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@{
+    IList<string> roles = null;
+    ApplicationUser user = null;
+    if (Context.Request.Cookies["user_name"] != null)
+    {
+        user = await UserManager.FindByNameAsync(Context.Request.Cookies["user_name"]);
+        roles = await UserManager.GetRolesAsync(user);
+    }
+}
+
+@if (roles[0] == "Admin")
+{
+    <h2>@ViewData["RegisteredBooking"]  </h2>
+    <div class="row col-12">
+        <div class="col-6">
+            <table>
+                <thead>
+                <th>Id</th>
+                <th>StartDate</th>
+                <th>EndDate</th>
+                <th>ServiceId</th>
+                <th>BookingId</th>
+                <th>Status</th>
+
+                </thead>
+
+
+                <tbody>
+                    @if (Model.checkings != null)
+                    {
+                        foreach (var item in Model.checkings)
+                        {
+                            <tr>
+                                <td>@item.Id </td>
+                                <td>@item.StartDate</td>
+                                <td>@item.EndDate</td>
+                                <td>@item.ServiceId</td>
+                                <td>@item.BookingId</td>
+                                <td>@item.Status</td>
+
+
+                            </tr>
+                        }
+                    }
+                </tbody>
+
+
+                <tfoot></tfoot>
+            </table>
+        </div>
+        <div class="col-6">
+            <form class="horizontal-form" asp-action="AddChecking">
+
+                <div class="form-group">
+                    <label>Check In</label>
+                    <input type="date" required asp-for="checking.StartDate" class="form-control" />
+                    <span asp-validation-for="checking.StartDate"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Check Out</label>
+                    <input type="date" required asp-for="checking.EndDate" class="form-control" />
+                    <span asp-validation-for="checking.EndDate"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Service</label>
+                    <input type="text" required asp-for="checking.ServiceId" class="form-control" />
+                    <span asp-validation-for="checking.ServiceId"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Booking</label>
+                    <input type="text" required asp-for="checking.BookingId" class="form-control" />
+                    <span asp-validation-for="checking.BookingId"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Status</label>
+                    <input type="text" required asp-for="checking.Status" class="form-control" />
+                    <span asp-validation-for="checking.Status"></span>
+                </div>
+
+                <hr />
+
+                <div class="form-group">
+                    <input type="submit" value="Proceed" />
+                </div>
+            </form>
+
+        </div>
+    </div>
+}
+
+@if (roles[0] == "Customer")
+{
+    <div class="col-6">
+        <form class="horizontal-form" asp-action="AddChecking">
+
+            <div class="form-group">
+                <label>Check In</label>
+                <input type="date" required asp-for="checking.StartDate" class="form-control" />
+                <span asp-validation-for="checking.StartDate"></span>
+            </div>
+
+            <div class="form-group">
+                <label>Check Out</label>
+                <input type="date" required asp-for="checking.EndDate" class="form-control" />
+                <span asp-validation-for="checking.EndDate"></span>
+            </div>
+
+            <div class="form-group">
+                <label>Service</label>
+                <input type="text" required asp-for="checking.ServiceId" class="form-control" />
+                <span asp-validation-for="checking.ServiceId"></span>
+            </div>
+
+            <div class="form-group">
+                <label>Booking</label>
+                <input type="text" required asp-for="checking.BookingId" class="form-control" />
+                <span asp-validation-for="checking.BookingId"></span>
+            </div>
+
+            <div class="form-group">
+                <label>Status</label>
+                <input type="text" required asp-for="checking.Status" class="form-control" />
+                <span asp-validation-for="checking.Status"></span>
+            </div>
+
+            <hr />
+
+            <div class="form-group">
+                <input type="submit" value="Proceed" />
+            </div>
+        </form>
+
+    </div>
+
+}

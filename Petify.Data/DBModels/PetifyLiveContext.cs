@@ -25,12 +25,10 @@ namespace Petify.Data.DBModels
         public virtual DbSet<AspNetUserToken> AspNetUserTokens { get; set; } = null!;
         public virtual DbSet<Billing> Billings { get; set; } = null!;
         public virtual DbSet<Booking> Bookings { get; set; } = null!;
+        public virtual DbSet<Checking> Checkings { get; set; } = null!;
         public virtual DbSet<FeedBack> FeedBacks { get; set; } = null!;
         public virtual DbSet<Gender> Genders { get; set; } = null!;
-        public virtual DbSet<Grooming> Groomings { get; set; } = null!;
-        public virtual DbSet<Payment> Payments { get; set; } = null!;
         public virtual DbSet<Pet> Pets { get; set; } = null!;
-        public virtual DbSet<PetBreed> PetBreeds { get; set; } = null!;
         public virtual DbSet<PetType> PetTypes { get; set; } = null!;
         public virtual DbSet<Service> Services { get; set; } = null!;
         public virtual DbSet<UserImage> UserImages { get; set; } = null!;
@@ -48,8 +46,6 @@ namespace Petify.Data.DBModels
         {
             modelBuilder.Entity<Allergy>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
-
                 entity.Property(e => e.AllergyName).HasMaxLength(100);
             });
 
@@ -150,120 +146,98 @@ namespace Petify.Data.DBModels
 
                 entity.Property(e => e.CreatedBy).HasMaxLength(450);
 
+                entity.Property(e => e.Description).HasMaxLength(450);
+
                 entity.Property(e => e.PriceUnit).HasColumnType("money");
+
+                entity.Property(e => e.Status).HasMaxLength(50);
+
+                entity.Property(e => e.Total).HasColumnType("money");
+
+                entity.HasOne(d => d.CreatedByNavigation)
+                    .WithMany(p => p.Billings)
+                    .HasForeignKey(d => d.CreatedBy)
+                    .HasConstraintName("FK_Billing_AspNetUsers");
             });
 
             modelBuilder.Entity<Booking>(entity =>
             {
-                entity.HasIndex(e => e.CheckOutDate, "IX_PetsAllergy_AllergiesId");
-
-                entity.HasIndex(e => e.CheckInDate, "IX_PetsAllergy_PetId");
-
-                entity.Property(e => e.Amount).HasColumnType("money");
-
-                entity.Property(e => e.CheckInDate).HasColumnType("datetime");
-
-                entity.Property(e => e.CheckOutDate).HasColumnType("datetime");
+                entity.HasIndex(e => e.PetId, "IX_PetsAllergy_PetId");
 
                 entity.Property(e => e.Created).HasColumnType("datetime");
 
                 entity.Property(e => e.CreatedBy).HasMaxLength(450);
 
-                entity.Property(e => e.UserId).HasMaxLength(450);
-
-                entity.HasOne(d => d.Billing)
+                entity.HasOne(d => d.CreatedByNavigation)
                     .WithMany(p => p.Bookings)
-                    .HasForeignKey(d => d.BillingId)
-                    .HasConstraintName("FK_Bookings_Billing");
+                    .HasForeignKey(d => d.CreatedBy)
+                    .HasConstraintName("FK_Bookings_AspNetUsers");
+
+                entity.HasOne(d => d.Pet)
+                    .WithMany(p => p.Bookings)
+                    .HasForeignKey(d => d.PetId)
+                    .HasConstraintName("FK_Bookings_Pets");
 
                 entity.HasOne(d => d.Service)
                     .WithMany(p => p.Bookings)
                     .HasForeignKey(d => d.ServiceId)
                     .HasConstraintName("FK_Bookings_Services");
+            });
 
-                entity.HasOne(d => d.User)
-                    .WithMany(p => p.Bookings)
-                    .HasForeignKey(d => d.UserId)
-                    .HasConstraintName("FK_Bookings_AspNetUsers");
+            modelBuilder.Entity<Checking>(entity =>
+            {
+                entity.HasIndex(e => e.ServiceId, "IX_PetServices_PetId");
+
+                entity.HasIndex(e => e.EndDate, "IX_PetServices_ServicesId");
+
+                entity.Property(e => e.Created).HasColumnType("datetime");
+
+                entity.Property(e => e.CreatedBy).HasMaxLength(450);
+
+                entity.Property(e => e.EndDate).HasColumnType("datetime");
+
+                entity.Property(e => e.StartDate).HasColumnType("datetime");
+
+                entity.Property(e => e.Status).HasMaxLength(50);
+
+                entity.HasOne(d => d.Booking)
+                    .WithMany(p => p.Checkings)
+                    .HasForeignKey(d => d.BookingId)
+                    .HasConstraintName("FK_Checkings_Bookings");
+
+                entity.HasOne(d => d.CreatedByNavigation)
+                    .WithMany(p => p.Checkings)
+                    .HasForeignKey(d => d.CreatedBy)
+                    .HasConstraintName("FK_Checkings_AspNetUsers");
+
+                entity.HasOne(d => d.Pet)
+                    .WithMany(p => p.Checkings)
+                    .HasForeignKey(d => d.PetId)
+                    .HasConstraintName("FK_Checkings_Pets");
+
+                entity.HasOne(d => d.Service)
+                    .WithMany(p => p.Checkings)
+                    .HasForeignKey(d => d.ServiceId)
+                    .HasConstraintName("FK_Checkings_Services");
             });
 
             modelBuilder.Entity<FeedBack>(entity =>
             {
-                entity.ToTable("FeedBack");
-
                 entity.Property(e => e.Created).HasColumnType("datetime");
 
                 entity.Property(e => e.CreatedBy).HasMaxLength(450);
 
                 entity.Property(e => e.Message).HasMaxLength(150);
 
-                entity.Property(e => e.UserId).HasMaxLength(450);
-
-                entity.HasOne(d => d.User)
+                entity.HasOne(d => d.CreatedByNavigation)
                     .WithMany(p => p.FeedBacks)
-                    .HasForeignKey(d => d.UserId)
-                    .HasConstraintName("FK_FeedBack_AspNetUsers");
+                    .HasForeignKey(d => d.CreatedBy)
+                    .HasConstraintName("FK_FeedBacks_AspNetUsers");
             });
 
             modelBuilder.Entity<Gender>(entity =>
             {
                 entity.Property(e => e.GenderType).HasMaxLength(20);
-            });
-
-            modelBuilder.Entity<Grooming>(entity =>
-            {
-                entity.ToTable("Grooming");
-
-                entity.HasIndex(e => e.UserId, "IX_PetServices_PetId");
-
-                entity.HasIndex(e => e.BillingId, "IX_PetServices_ServicesId");
-
-                entity.Property(e => e.Created).HasColumnType("datetime");
-
-                entity.Property(e => e.CreatedBy).HasMaxLength(450);
-
-                entity.HasOne(d => d.Billing)
-                    .WithMany(p => p.Groomings)
-                    .HasForeignKey(d => d.BillingId)
-                    .HasConstraintName("FK_Grooming_Billing");
-
-                entity.HasOne(d => d.Service)
-                    .WithMany(p => p.Groomings)
-                    .HasForeignKey(d => d.ServiceId)
-                    .HasConstraintName("FK_Grooming_Services");
-
-                entity.HasOne(d => d.User)
-                    .WithMany(p => p.Groomings)
-                    .HasForeignKey(d => d.UserId)
-                    .HasConstraintName("FK_Grooming_AspNetUsers");
-            });
-
-            modelBuilder.Entity<Payment>(entity =>
-            {
-                entity.HasIndex(e => e.BillingId, "IX_Payments_BillingId");
-
-                entity.Property(e => e.Created).HasColumnType("datetime");
-
-                entity.Property(e => e.CreatedBy).HasMaxLength(450);
-
-                entity.Property(e => e.TotalAmount).HasColumnType("money");
-
-                entity.Property(e => e.UserId).HasMaxLength(450);
-
-                entity.HasOne(d => d.Billing)
-                    .WithMany(p => p.Payments)
-                    .HasForeignKey(d => d.BillingId)
-                    .HasConstraintName("FK_Payments_Billing");
-
-                entity.HasOne(d => d.Service)
-                    .WithMany(p => p.Payments)
-                    .HasForeignKey(d => d.ServiceId)
-                    .HasConstraintName("FK_Payments_Services");
-
-                entity.HasOne(d => d.User)
-                    .WithMany(p => p.Payments)
-                    .HasForeignKey(d => d.UserId)
-                    .HasConstraintName("FK_Payments_AspNetUsers");
             });
 
             modelBuilder.Entity<Pet>(entity =>
@@ -302,20 +276,11 @@ namespace Petify.Data.DBModels
                     .HasForeignKey(d => d.PetTypeId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Pets_PetType");
-            });
 
-            modelBuilder.Entity<PetBreed>(entity =>
-            {
-                entity.ToTable("PetBreed");
-
-                entity.HasIndex(e => e.PetTypeId, "IX_SubCategories_CategoryId");
-
-                entity.Property(e => e.BreedName).HasMaxLength(100);
-
-                entity.HasOne(d => d.PetType)
-                    .WithMany(p => p.PetBreeds)
-                    .HasForeignKey(d => d.PetTypeId)
-                    .HasConstraintName("FK_PetBreed_PetType");
+                entity.HasOne(d => d.User)
+                    .WithMany(p => p.Pets)
+                    .HasForeignKey(d => d.UserId)
+                    .HasConstraintName("FK_Pets_AspNetUsers");
             });
 
             modelBuilder.Entity<PetType>(entity =>
@@ -329,6 +294,8 @@ namespace Petify.Data.DBModels
 
             modelBuilder.Entity<Service>(entity =>
             {
+                entity.Property(e => e.PriceUnit).HasColumnType("money");
+
                 entity.Property(e => e.ServiceName).HasMaxLength(50);
             });
 

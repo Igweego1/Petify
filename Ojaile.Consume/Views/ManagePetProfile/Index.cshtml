@@ -1,12 +1,30 @@
-﻿@model PetProfileComponents
+﻿@using Microsoft.AspNetCore.Identity
+@using Petify.WebApi.Model
+@model PetProfileComponents
 
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
 @{
+    IList<string> roles = null;
+    ApplicationUser user = null;
+    if (Context.Request.Cookies["user_name"] != null)
+    {
+        user = await UserManager.FindByNameAsync(Context.Request.Cookies["user_name"]);
+        roles = await UserManager.GetRolesAsync(user);
+    }
+}
+
+
+@if (roles[0] == "Admin")
+{
     <h2>@ViewData["RegisteredPetProfiles"]  </h2>
     <div class="row col-12">
-        <div class="col-6">
+        <div class="col-8">
             <table>
                 <thead>
                 <th>PetName</th>
@@ -31,6 +49,8 @@
                                 <td>@item.Description</td>
                                 <td>@item.PetAddress</td>
                                 <td>@item.PetCity</td>
+                                <td>@Html.ActionLink("Update","UpdatePetProfile",new {Id=@item.Id})</td>
+                                <td>@Html.ActionLink("Delete","DeletePetProfile",new {Id=@item.Id})</td>
 
                             </tr>
                         }
@@ -41,7 +61,10 @@
                 <tfoot></tfoot>
             </table>
         </div>
-        <div class="col-6">
+
+
+
+        <div class="col-4">
             <form class="horizontal-form" asp-action="CreatePet">
 
                 <div class="form-group">
@@ -100,8 +123,120 @@
                 <div class="form-group">
                     <input type="submit" value="Create" />
                 </div>
+
             </form>
 
         </div>
     </div>
+}
+
+@if (roles[0] == "Customer")
+{
+     <h2>@ViewData["RegisteredPetProfiles"]  </h2>
+    <div class="row col-12">
+        <div class="col-8">
+            <table>
+               @* <thead>
+                <th>PetName</th>
+                <th>PetType</th>
+                <th>PetGender</th>
+                <th>Description</th>
+                <th>PetAddress</th>
+                <th>PetCity</th>
+
+                </thead>*@
+
+
+                <tbody>
+                    @if (Model.profiles != null)
+                    {
+                        foreach (var item in Model.profiles)
+                        {
+                            <tr>
+                                @*<td>@item.PetName </td>
+                                <td>@item.PetTypeId</td>
+                                <td>@item.PetGenderId</td>
+                                <td>@item.Description</td>
+                                <td>@item.PetAddress</td>
+                                <td>@item.PetCity</td>*@
+                                <td>@Html.ActionLink("Update","UpdatePetProfile",new {Id=@item.Id})</td>
+                                <td>@Html.ActionLink("Delete","DeletePetProfile",new {Id=@item.Id})</td>
+
+                            </tr>
+                        }
+                    }
+                </tbody>
+
+
+                <tfoot></tfoot>
+            </table>
+        </div>
+
+
+
+        <div class="col-4">
+            <form class="horizontal-form" asp-action="CreatePet">
+
+                <div class="form-group">
+                    <label>Pet Name</label>
+                    <input type="text" required asp-for="profile.PetName" class="form-control" />
+                    <span asp-validation-for="profile.PetName"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Pet Type</label>
+                    <select asp-for="profile.PetTypeId" asp-items="ViewBag.PetType" class="form-control"></select>
+                    <span asp-validation-for="profile.PetTypeId"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Pet Gender</label>
+                    <select asp-for="profile.PetGenderId" asp-items="ViewBag.Gender" class="form-control"></select>
+                    <span asp-validation-for="profile.PetGenderId"></span>
+                </div>
+
+
+                <div class="form-group">
+                    <label>Date Of Birth</label>
+                    <input type="date" required asp-for="profile.DateOfBirth" class="form-control" />
+                    <span asp-validation-for="profile.DateOfBirth"></span>
+                </div>
+
+
+                <div class="form-group">
+                    <label>Allergy</label>
+                    <select asp-for="profile.AllergyId" asp-items="ViewBag.Allergy" class="form-control"></select>
+                    <span asp-validation-for="profile.AllergyId"></span>
+                </div>
+
+
+                <div class="form-group">
+                    <label>Description</label>
+                    <input type="text" required asp-for="profile.Description" class="form-control" />
+                    <span asp-validation-for="profile.Description"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Pet Address</label>
+                    <input type="text" required asp-for="profile.PetAddress" class="form-control" />
+                    <span asp-validation-for="profile.PetAddress"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Pet City</label>
+                    <input type="text" required asp-for="profile.PetCity" class="form-control" />
+                    <span asp-validation-for="profile.PetCity"></span>
+                </div>
+
+                <hr />
+
+                <div class="form-group">
+                    <input type="submit" value="Create" />
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
 }

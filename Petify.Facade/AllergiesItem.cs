@@ -18,16 +18,16 @@ namespace Petify.Facade
         }
         public void DeleteAllergy(int Id)
         {
-           var allergyContains = _context.Allergies.FirstOrDefault(x => x.Id == Id);
+            var allergyContains = _context.Allergies.FirstOrDefault(x => x.Id == Id);
             _context.Entry(allergyContains).State = EntityState.Deleted;
             _context.SaveChanges();
         }
 
         public Allergy GetAllergyById(int Id)
         {
-            if(Id != 0)
+            if (Id != 0)
             {
-              var result = _context.Allergies.Where(x => x.Id == Id).FirstOrDefault();  
+                var result = _context.Allergies.Where(x => x.Id == Id).FirstOrDefault();
                 return result;
             }
             else

@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Petify.WebApi.Data_Model;
 using Petify.WebApi;
-using Petify.Data.DBModels;
 using Petify.WebApi.Model;
 using Microsoft.AspNetCore.Identity;
 using Petify.Abstraction;
@@ -10,6 +9,7 @@ using Serilog;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Petify.Data.DBModels;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,7 +31,7 @@ builder.Services.AddDbContext<PetifyLiveContext>(options =>
 {
     options.UseSqlServer(connectionString, sqlServerOptions =>
     {
-        sqlServerOptions.MigrationsAssembly("Ojaile.Data");
+        sqlServerOptions.MigrationsAssembly("Petify.Data");
     });
 });
 
@@ -68,9 +68,9 @@ builder.Services.AddScoped<IPetProfile, PetProfile>();
 builder.Services.AddScoped<IServiceItem, ServiceItem>();
 builder.Services.AddScoped<IAllergiesItem, AllergiesItem>();
 builder.Services.AddScoped<IFeedBackItem, FeedbackItem>();
-builder.Services.AddScoped<IBillingItem, BillingItem>();
-builder.Services.AddScoped<IGroomingService, GroomingService>();
 builder.Services.AddScoped<IBookingService, BookingService>();
+builder.Services.AddScoped<ICheckingService, CheckingService>();
+builder.Services.AddScoped<IBillingService, BillingService>();
 builder.Services.AddTransient<IEmailService, EmailService>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

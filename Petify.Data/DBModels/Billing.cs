@@ -5,20 +5,15 @@ namespace Petify.Data.DBModels
 {
     public partial class Billing
     {
-        public Billing()
-        {
-            Bookings = new HashSet<Booking>();
-            Groomings = new HashSet<Grooming>();
-            Payments = new HashSet<Payment>();
-        }
-
         public int Id { get; set; }
-        public decimal PriceUnit { get; set; }
+        public int? Quantity { get; set; }
+        public decimal? PriceUnit { get; set; }
+        public decimal? Total { get; set; }
+        public string? Description { get; set; }
         public string? CreatedBy { get; set; }
         public DateTime? Created { get; set; }
+        public string? Status { get; set; }
 
-        public virtual ICollection<Booking> Bookings { get; set; }
-        public virtual ICollection<Grooming> Groomings { get; set; }
-        public virtual ICollection<Payment> Payments { get; set; }
+        public virtual AspNetUser? CreatedByNavigation { get; set; }
     }
 }

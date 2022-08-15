@@ -3,8 +3,8 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
-    <h3>@TempData["LoginSuccess"]</h3>
    
+    <div class="col-6">
     <form class="horizontal-form" asp-action="Login">
      
    
@@ -26,8 +26,8 @@
     </form>
       <br />
     <h7>Don't have an account?<a href = "Register"> Register</a></h7>
-   
+   </div>
 
    
-    <h6>@TempData["token"]</h6> 
+   
 }

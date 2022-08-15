@@ -19,6 +19,10 @@ namespace Petify.Consume.Models
         [JsonProperty]
         public string? firstname { get; set; }
 
+
+        [JsonProperty]
+        public string? username { get; set; }
+
         [JsonProperty]
         public string? email { get; set; }
     }

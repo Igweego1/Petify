@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Petify.Abstraction;
+using Petify.Core.Model;
 using Petify.Data.DBModels;
-using Petify.WebApi.Model;
 using System.Security.Claims;
 
 namespace Petify.WebApi.Controllers
@@ -13,19 +13,19 @@ namespace Petify.WebApi.Controllers
     public class ManageBillingController : ControllerBase
     {
         private readonly ILogger<ManageBillingController> _logger;
-        private readonly IBillingItem _billing;
-        public ManageBillingController(ILogger<ManageBillingController> logger, IBillingItem billing)
+        private readonly IBillingService _billing;
+        public ManageBillingController(ILogger<ManageBillingController> logger, IBillingService billing)
         {
             _logger = logger;
             _billing = billing;
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize]
         [HttpPost]
-        [Route("CreateBillingPriceUnit")]
-        public async Task<IActionResult> CreateBillingPriceunit([FromBody] BillingViewModel model)
+        [Route("CreateBilling")]
+        public async Task<IActionResult> CreateBilling([FromBody] BillingViewModel model)
         {
-            _logger.LogInformation("Creating a Billing Price Unit...");
+            _logger.LogInformation("Creating Billing...");
             if (!ModelState.IsValid)
             {
                 _logger.LogCritical("Model State is bad....");
@@ -33,35 +33,57 @@ namespace Petify.WebApi.Controllers
             }
 
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
             Billing billing = new Billing();
+            billing.Quantity = model.Quantity;
             billing.PriceUnit = model.PriceUnit;
+            billing.Total = model.Total;
+            billing.Description = model.Description;
             billing.CreatedBy = userId;
             billing.Created = DateTime.Now;
+            billing.Status = model.Status;
 
 
-            _billing.SaveBillingPriceUnit(billing);
+            _billing.SaveBilling(billing);
 
             return Ok(model);
         }
 
+
+        //Retrieve All Billings
+
+        // [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Authorize(Roles = "Admin")]
+        [HttpGet]
+        [Route("GetAllBillings")]
+
+        public IActionResult GetAllBillings()
+        {
+            _logger.LogInformation("Getting List of Billings...");
+            var result = _billing.GetListBilling();
+            return Ok(result);
+        }
+
+
+
+        [Authorize]
         [HttpGet]
         [Route("GetBilling/{Id}")]
 
         public IActionResult GetBillingById(int Id)
         {
             _logger.LogInformation("Getting Billing Price Unit by Id...");
-            var result = _billing.GetBillingPriceunitById(Id);
+            var result = _billing.GetBillingById(Id);
             return Ok(result);
         }
 
         [Authorize(Roles = "Admin")]
         [HttpDelete]
         [Route("DeleteBilling/{Id}")]
-        public async Task<IActionResult> DeleteFeedback(int Id)
+        public async Task<IActionResult> DeleteBilling(int Id)
         {
             _logger.LogInformation("Deleting Billing Price Unit...");
-            _billing.DeleteBillingPriceUnit(Id);
+            _billing.DeleteBilling(Id);
             return Ok();
             return BadRequest();
         }
@@ -81,13 +103,16 @@ namespace Petify.WebApi.Controllers
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
             Billing billing = new Billing();
+            billing.Quantity = model.Quantity;
             billing.PriceUnit = model.PriceUnit;
-            billing.Created = DateTime.Now;
+            billing.Total = model.Total;
+            billing.Description = model.Description;
             billing.CreatedBy = userId;
+            billing.Created = DateTime.Now;
+            billing.Status = model.Status;
 
-
-            _billing.UpdateBillingPriceUnit(Id, billing);
-            return Ok(model);
+            _billing.UpdateBilling(Id, billing);
+            return Ok(billing);
         }
     }
 }

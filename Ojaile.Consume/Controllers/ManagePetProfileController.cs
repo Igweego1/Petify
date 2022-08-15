@@ -74,15 +74,6 @@ namespace Petify.Consume.Controllers
                 }
             }
 
-            //List<PetAllergyViewModel> petAllergy = new List<PetAllergyViewModel>()
-            //{
-            //    new PetAllergyViewModel { Id = 2, Name ="Chocolate"},
-            //    new PetAllergyViewModel { Id = 3, Name ="Onions and Garlic"},
-            //    new PetAllergyViewModel {Id = 4, Name ="Grapes and Raisins"},
-            //    new PetAllergyViewModel { Id = 5, Name ="Milk and Other Diary Products"},
-            //    new PetAllergyViewModel { Id = 6, Name = "Nuts"},
-            //     new PetAllergyViewModel { Id = 7, Name = "None"}
-            //};
 
             ViewBag.Allergy = petAllergies.Select(i => new SelectListItem
             {
@@ -148,5 +139,154 @@ namespace Petify.Consume.Controllers
             }
         }
 
+        public async Task<IActionResult> UpdatePetProfile(int Id)
+        {
+            PetProfileViewModel petProfile = new PetProfileViewModel();
+            string endpoint = apiUrl + "ManagePetProfile/GetProfile/" + Id;
+
+            List<PetTypeViewModel> petTypes = new List<PetTypeViewModel>()
+            {
+                new PetTypeViewModel{Id = 1, Name = "Dog"},
+                new PetTypeViewModel{Id = 2, Name = "Cat"}
+            };
+            ViewBag.PetType = petTypes.Select(i => new SelectListItem
+            {
+                Value = i.Id.ToString(),
+                Text = i.Name,
+            }).ToList();
+            petTypes.Insert(0, new PetTypeViewModel { Id = 0, Name = "Select Pet" });
+
+
+            List<PetGenderViewModel> petGender = new List<PetGenderViewModel>()
+            {
+                new PetGenderViewModel { Id = 1, Name = "Male"},
+                new PetGenderViewModel {Id = 2, Name = "Female"}
+            };
+            ViewBag.Gender = petGender.Select(i => new SelectListItem
+            {
+                Value = i.Id.ToString(),
+                Text = i.Name,
+            }).ToList();
+            petGender.Insert(0, new PetGenderViewModel { Id = 0, Name = " Select Gender" });
+
+
+            var token = Request.Cookies["access_token"].ToString();
+
+            string endpointAllergy = apiUrl + "ManageAllergies/RetrieveAllergies";
+
+            List<PetAllergyViewModel> petAllergies = new List<PetAllergyViewModel>();
+
+            using (HttpClient client = new HttpClient())
+            {
+
+                client.BaseAddress = new Uri(endpointAllergy);
+                client.DefaultRequestHeaders.Authorization =
+               new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                // HttpResponseMessage response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
+                var response = await client.GetAsync(endpointAllergy); //this get response from 
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    petAllergies = JsonConvert.DeserializeObject<List<PetAllergyViewModel>>(content);
+                }
+            }
+
+
+            ViewBag.Allergy = petAllergies.Select(i => new SelectListItem
+            {
+                Value = i.Id.ToString(),
+                Text = i.AllergyName,
+            }).ToList();
+
+
+
+
+            var handler = new HttpClientHandler()
+            {
+                AllowAutoRedirect = false,
+            };
+
+            using (HttpClient client = new HttpClient(handler))
+            {
+
+                client.BaseAddress = new Uri(endpoint);
+                client.DefaultRequestHeaders.Authorization =
+               new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                // HttpResponseMessage response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
+                var response = await client.GetAsync(endpoint); //this get response from 
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    petProfile = JsonConvert.DeserializeObject<PetProfileViewModel>(content);
+                }
+            }
+            return View(petProfile);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdatePetProfile([FromForm] PetProfileViewModel model, int Id)
+        {
+           
+            StringContent content = new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8, "application/json");
+            string endpoint = apiUrl + "ManagePetProfile/UpdateProfile/" + Id;
+
+            var token = Request.Cookies["access_token"].ToString();
+
+            using (HttpClient client = new HttpClient())
+            {
+
+                client.BaseAddress = new Uri(endpoint);
+                client.DefaultRequestHeaders.Authorization =
+               new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                var Response = await client.PostAsync(endpoint, content);
+
+                if (Response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    ModelState.Clear();
+                    ModelState.AddModelError(string.Empty, "Username already exist");
+                    return RedirectToAction("Index");
+
+                }
+            }
+        }
+
+        public async Task<IActionResult> DeletePetProfile(int Id)
+        {
+
+            string endpoint = apiUrl + "ManagePetProfile/DeleteProfile/" + Id;
+
+            var token = Request.Cookies["access_token"].ToString();
+
+            using (HttpClient client = new HttpClient())
+            {
+
+                client.BaseAddress = new Uri(endpoint);
+                client.DefaultRequestHeaders.Authorization =
+               new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                var Response = await client.DeleteAsync(endpoint);
+
+                if (Response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    ModelState.Clear();
+                    ModelState.AddModelError(string.Empty, "Username already exist");
+                    return RedirectToAction("Index");
+
+                }
+            }
+        }
     }
 }

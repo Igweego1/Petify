@@ -52,6 +52,7 @@ namespace Petify.Consume.Controllers
         [HttpPost]
         public async Task<IActionResult> SendFeedBack ([FromForm] FeedBackModelComponents model)
         {
+
             StringContent content = new StringContent(JsonConvert.SerializeObject(model.feedback), Encoding.UTF8, "application/json");
             string endpoint = apiUrl + "ManageFeedback/CreatingFeedback";
             var token = Request.Cookies["access_token"].ToString();

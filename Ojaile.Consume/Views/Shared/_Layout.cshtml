@@ -3,83 +3,151 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Petify.Consume</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Ojaile.Consume.styles.css" asp-append-version="true" />
+    <title>Petify</title>
+
+    <!-- slider stylesheet -->
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,500|Poppins:400,700&display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="~/css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="~/css/responsive.css" rel="stylesheet" />
 </head>
+
+<!-- footer section -->
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Petify.Consume</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+
+    <header class="header_section">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg custom_nav-container ">
+                <a class="navbar-brand"  asp-controller="Home" asp-action="Index">
+                    <img src="images/logo.png" alt="">
+                    <span>
+                        Petify
+                    </span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
 
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-
-                        @if (Context.Request.Cookies["access_token"] == null)
-                        {
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
+                        <ul class="navbar-nav  ">
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Login">Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Register">Register</a>
-                            </li>
-                        }
-
-                        else
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Logout">Logout</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index" style="font-size:15px">Home</a>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageFeedBack" asp-action="Index">FeedBack</a>
-                            </li>
+                            @if (Context.Request.Cookies["access_token"] == null)
+                            {
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Register" style="font-size:15px">Register</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Login" style="font-size:15px">Login</a>
+                                </li>
+                            }
+
+                            else
+                            {
+                                 <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="ManagePetProfile" asp-action="Index" style="font-size:15px">Pet Profile</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="ManageBooking" asp-action="Index" style="font-size:15px">Booking</a>
+                                </li>
+
+                                 <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="ManageChecking" asp-action="Index" style="font-size:15px">Checking</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="ManageFeedBack" asp-action="Index" style="font-size:15px">FeedBack</a>
+                                </li>
+
+                                 <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Logout" style="font-size:15px">Logout</a>
+                                </li>
+
+                               
+                            }
+                            @*
 
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageGrooming" asp-action="Index">Groom</a>
+                                <a class="nav-link" href="pet.html" style="font-size:15px">Pet's gallery </a>
                             </li>
-
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageBooking" asp-action="Index">Booking</a>
+                                <a class="nav-link" href="contact.html" style="font-size:15px">Contact us</a>
                             </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="ManagePetProfile" asp-action="Index">Pet Profile</a>
-                            </li>
-                        }
-
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
+                            
+                                <li class="nav-item">
+                                <a class="nav-link" href="buy.html" style="font-size:15px"> Buy now </a>
+                                </li>*@
+                        </ul>
+                        @*
+                        <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                        </form>*@
+                    </div>
+                    <div class="quote_btn-container  d-flex justify-content-center">
+                        <a href="">
+                            Call: +234 9022004674
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - Petify.Consume - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+    <script type="text/javascript" src="~/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="~/js/bootstrap.js" asp-append-version="true"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+
+
+    <script>
+        // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+        // Australia.
+        function initMap() {
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 11,
+            center: {
+              lat: 40.645037,
+              lng: -73.880224
+            },
+          });
+
+          var image = 'images/maps-and-flags.png';
+          var beachMarker = new google.maps.Marker({
+            position: {
+              lat: 40.645037,
+              lng: -73.880224
+            },
+            map: map,
+            icon: image
+          });
+        }
+    </script>
+    <!-- google map js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
+    </script>
+    <!-- end google map js -->
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
+
 </html>

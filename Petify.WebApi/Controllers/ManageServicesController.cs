@@ -1,9 +1,10 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Petify.Abstraction;
+using Petify.Core.Model;
 using Petify.Data.DBModels;
-using Petify.WebApi.Model;
 using System.Security.Claims;
 
 
@@ -21,7 +22,7 @@ namespace Petify.WebApi.Controllers
             _logger = logger;
         }
 
-        [Authorize(Roles ="Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [Route("CreateService")]
 
@@ -39,6 +40,7 @@ namespace Petify.WebApi.Controllers
             Service service = new Service();
 
             service.ServiceName = model.ServiceName;
+            service.PriceUnit = model.PriceUnit;
 
             _services.SaveService(service);
             return Ok(model);
@@ -46,8 +48,8 @@ namespace Petify.WebApi.Controllers
 
 
         //Retrieve All Services
-
-        [Authorize(Roles ="Admin")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         [Route("RetrieveServices")]
 
@@ -60,6 +62,7 @@ namespace Petify.WebApi.Controllers
 
 
         //Get Service by Id
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Authorize]
         [HttpGet]
         [Route("GetService/{Id}")]
@@ -72,7 +75,8 @@ namespace Petify.WebApi.Controllers
         }
 
         //Update Service
-        [Authorize(Roles ="Admin")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize(Roles = "Admin")]
         [HttpPut]
         [Route("UpdateServiceRender/{Id}")]
 
@@ -87,11 +91,12 @@ namespace Petify.WebApi.Controllers
 
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-            _services.UpdateService(Id, new Service
-            {
-                ServiceName = model.ServiceName,
-            });
-            return Ok(model);
+            Service service = new Service();
+            service.ServiceName = model.ServiceName;
+            service.PriceUnit = model.PriceUnit;
+
+            _services.UpdateService(Id, service);
+            return Ok(service);
         }
 
 

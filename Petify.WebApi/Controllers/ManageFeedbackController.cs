@@ -24,6 +24,7 @@ namespace Petify.WebApi.Controllers
         }
 
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize]
         [HttpPost]
         [Route("CreatingFeedback")]
 
@@ -38,15 +39,14 @@ namespace Petify.WebApi.Controllers
             }
 
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            
-            
-            
+
+
+
             FeedBack feedBack = new FeedBack();
 
 
             feedBack.Message = model.Message;
             feedBack.CreatedBy = userId;
-            feedBack.UserId = userId;
             feedBack.Created = DateTime.Now;
 
             _feedBack.SaveFeedBack(feedBack);
@@ -54,9 +54,9 @@ namespace Petify.WebApi.Controllers
         }
 
         //Retrieve All FeedBacks
-
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpGet]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+       [Authorize(Roles = "Admin")]
         [Route("RetrieveFeedBacks")]
 
         public IActionResult RetrieveFeedBacks()
@@ -67,7 +67,7 @@ namespace Petify.WebApi.Controllers
         }
 
         //Get Feedbacks by Id
-        [Authorize(Roles ="Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         [Route("GetFeedBack/{Id}")]
 
@@ -81,7 +81,7 @@ namespace Petify.WebApi.Controllers
 
         //Delete FeedBack By Id
 
-        [Authorize(Roles ="Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpDelete]
         [Route("DeleteFeedBack/{Id}")]
         public async Task<IActionResult> DeleteFeedBack(int Id)

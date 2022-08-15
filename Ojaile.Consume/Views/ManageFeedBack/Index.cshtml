@@ -1,40 +1,58 @@
-﻿@model FeedBackModelComponents
+﻿@using Microsoft.AspNetCore.Identity
+@using Petify.WebApi.Model
+@model FeedBackModelComponents
 
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
 @{
-    //<h2>@ViewData["RegisteredPetProfiles"]  </h2>
-    //<div class="row col-12">
-        //<div class="col-6">
-        //    <table>
-        //        <thead>
-        //        <th>Id</th>
-        //        <th>Message</th>
-        //        <th>CreatedBy</th>
+    IList<string> roles = null;
+    ApplicationUser user = null;
+    if(Context.Request.Cookies["user_name"] != null)
+    {
+        user = await UserManager.FindByNameAsync(Context.Request.Cookies["user_name"]);
+        roles = await UserManager.GetRolesAsync(user);
+    }
+}
+
+@if (roles[0] == "Admin")
+{
+
+    <h2>@ViewData["RegisteredPetProfiles"]  </h2>
+    <div class="row col-12">
+        <div class="col-6">
+            <table>
+                <thead>
+                <th>Id</th>
+                <th>Message</th>
+                <th>CreatedBy</th>
                
-        //        </thead>
+                </thead>
 
 
-        //        <tbody>
-        //            @if (Model.feedbacks != null)
-        //            {
-        //                foreach (var item in Model.feedbacks)
-        //                {
-        //                    <tr>
-        //                        <td>@item.Id </td>
-        //                        <td>@item.Message</td>
-        //                        <td>@item.CreatedBy</td>
-        //                    </tr>
-        //                }
-        //            }
-        //        </tbody>
+                <tbody>
+                    @if (Model.feedbacks != null)
+                    {
+                        foreach (var item in Model.feedbacks)
+                        {
+                            <tr>
+                                <td>@item.Id </td>
+                                <td>@item.Message</td>
+                                <td>@item.CreatedBy</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
 
 
-        //        <tfoot></tfoot>
-        //    </table>
-        //</div>
-        //<div class="col-6">
+                <tfoot></tfoot>
+            </table>
+        </div>
+        <div class="col-6">
             <form class="horizontal-form" asp-action="SendFeedBack">
 
                 <div class="form-group">
@@ -43,12 +61,59 @@
                     <span asp-validation-for="feedback.Message"></span>
                 </div>
 
-                <div class="form-group">
-                    <label>Date</label>
-                    <input type="datetime" required asp-for="feedback.Created" class="form-control" />
-                    <span asp-validation-for="feedback.Created"></span>
-                </div>
+                <hr />
 
+                <div class="form-group">
+                    <input type="submit" value="Send" />
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+}
+
+@if (roles[0] == "Customer")
+{
+
+  @*  <h2>@ViewData["RegisteredPetProfiles"]  </h2>
+    <div class="row col-12">
+        <div class="col-6">
+            <table>
+                <thead>
+                <th>Id</th>
+                <th>Message</th>
+                <th>CreatedBy</th>
+               
+                </thead>
+
+
+                <tbody>
+                    @if (Model.feedbacks != null)
+                    {
+                        foreach (var item in Model.feedbacks)
+                        {
+                            <tr>
+                                <td>@item.Id </td>
+                                <td>@item.Message</td>
+                                <td>@item.CreatedBy</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+
+
+                <tfoot></tfoot>
+            </table>
+        </div>*@
+        <div class="col-6">
+            <form class="horizontal-form" asp-action="SendFeedBack">
+
+                <div class="form-group">
+                    <label>We are always happy to hear from you</label>
+                    <input type="text" required asp-for="feedback.Message" class="form-control" />
+                    <span asp-validation-for="feedback.Message"></span>
+                </div>
 
                 <hr />
 
@@ -57,6 +122,7 @@
                 </div>
             </form>
 
-        //</div>
-    //</div>
+        </div>
+   @* </div>*@
+
 }

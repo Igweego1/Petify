@@ -3,8 +3,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Petify.Abstraction;
+using Petify.Core.Model;
 using Petify.Data.DBModels;
-using Petify.WebApi.Model;
 using System.Security.Claims;
 
 namespace Petify.WebApi.Controllers
@@ -21,11 +21,11 @@ namespace Petify.WebApi.Controllers
             _logger = logger;
         }
 
-        [Authorize(Roles ="Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [Route("CreateAllergy")]
 
-        public async Task<IActionResult> CreateAllergy([FromBody] AllergiesViewModel model)
+        public async Task<IActionResult> CreateAllergy([FromBody] PetAllergyViewModel model)
         {
             _logger.LogInformation("Admin is creating an allergy....");
             if (!ModelState.IsValid)
@@ -45,8 +45,8 @@ namespace Petify.WebApi.Controllers
 
         }
 
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
-        //[Authorize(Roles ="Admin")]
+       [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize(Roles ="Admin")]
         [HttpGet]
         [Route("RetrieveAllergies")]
 
@@ -59,7 +59,7 @@ namespace Petify.WebApi.Controllers
 
 
         //Get Allergy by Id
-        [Authorize(Roles ="Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         [Route("GetAllergy/{Id}")]
 
@@ -72,11 +72,11 @@ namespace Petify.WebApi.Controllers
 
 
         //Update Allergy
-        [Authorize(Roles ="Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPut]
         [Route("UpdateAllergy/{Id}")]
 
-        public async Task<IActionResult> UpdateAllergy([FromBody] AllergiesViewModel model, int Id)
+        public async Task<IActionResult> UpdateAllergy([FromBody] PetAllergyViewModel model, int Id)
         {
             _logger.LogInformation("Updating Allergy List....");
             if (!ModelState.IsValid)
@@ -97,7 +97,7 @@ namespace Petify.WebApi.Controllers
 
         //Delete Allergy By Id
 
-        [Authorize(Roles ="Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpDelete]
         [Route("DeleteAllergy/{Id}")]
         public async Task<IActionResult> DeleteAllergy(int Id)

@@ -5,6 +5,12 @@ namespace Petify.Data.DBModels
 {
     public partial class Pet
     {
+        public Pet()
+        {
+            Bookings = new HashSet<Booking>();
+            Checkings = new HashSet<Checking>();
+        }
+
         public int Id { get; set; }
         public string? PetName { get; set; }
         public int PetTypeId { get; set; }
@@ -22,5 +28,8 @@ namespace Petify.Data.DBModels
         public virtual Allergy Allergy { get; set; } = null!;
         public virtual Gender? PetGender { get; set; }
         public virtual PetType PetType { get; set; } = null!;
+        public virtual AspNetUser? User { get; set; }
+        public virtual ICollection<Booking> Bookings { get; set; }
+        public virtual ICollection<Checking> Checkings { get; set; }
     }
 }

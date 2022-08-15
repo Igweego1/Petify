@@ -546,3 +546,1506 @@ System.InvalidOperationException: No authentication handler is registered for th
 [2022-08-08 15:52:17.117] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
 [2022-08-08 15:52:38.625] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
 [2022-08-08 15:52:38.963] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-08 16:29:10.070] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-08 20:06:59.084] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-08 20:07:36.624] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-08 20:07:37.169] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-08 20:07:37.722] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-08 20:07:37.821] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-08 20:12:10.711] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-08 20:13:15.538] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-08 20:14:42.103] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-08 20:18:12.218] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-08 20:18:21.166] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Getting List of Groomings...
+[2022-08-08 20:18:21.739] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Getting List of Groomings...
+[2022-08-08 20:18:38.750] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-08 20:18:39.283] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-08 20:18:57.396] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-08 20:18:57.767] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-08 20:29:28.855] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-08 20:30:07.824] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-08 20:30:08.323] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-08 20:30:08.929] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-08 20:30:09.002] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-08 21:55:55.282] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-08 21:56:23.031] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Getting List of Groomings...
+[2022-08-08 21:56:23.649] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Getting List of Groomings...
+[2022-08-08 21:59:33.387] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-08 21:59:41.934] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-08 21:59:42.503] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-08 22:00:08.857] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-08 22:00:08.977] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-08 22:00:09.361] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-08 22:00:09.421] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-08 22:00:15.945] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Getting List of Groomings...
+[2022-08-08 22:00:16.261] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Getting List of Groomings...
+[2022-08-08 22:00:17.808] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-08 22:00:18.103] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-08 22:03:02.876] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-08 22:03:11.456] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-08 22:03:12.158] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-08 22:03:14.836] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Getting List of Groomings...
+[2022-08-08 22:03:15.117] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Getting List of Groomings...
+[2022-08-08 22:03:16.913] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-08 22:03:17.308] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-08 22:03:19.528] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-08 22:03:19.671] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-08 22:03:20.011] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-08 22:03:20.082] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-08 22:03:39.083] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-08 22:05:49.047] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 08:16:38.106] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 08:17:55.140] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 08:18:02.596] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-09 08:18:03.151] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-09 08:18:06.291] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-09 08:18:06.544] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-09 08:18:11.777] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-09 08:18:11.861] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-09 08:18:12.095] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-09 08:18:12.161] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-09 08:25:48.913] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 09:34:31.958] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 09:34:37.294] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-09 09:34:37.778] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-09 09:34:41.676] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-09 09:34:41.952] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-09 09:34:43.977] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Getting List of Groomings...
+[2022-08-09 09:34:44.260] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Getting List of Groomings...
+[2022-08-09 09:38:58.592] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 09:39:48.790] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-09 09:39:49.045] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-09 09:40:15.983] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Booking for your pet to stay...
+[2022-08-09 09:40:16.683] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-09 09:40:16.908] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-09 10:12:31.806] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 10:12:37.122] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Getting List of Groomings...
+[2022-08-09 10:12:37.813] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Getting List of Groomings...
+[2022-08-09 10:14:21.694] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Requesting For A grooming Service...
+[2022-08-09 10:14:22.200] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Getting List of Groomings...
+[2022-08-09 10:14:22.428] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Getting List of Groomings...
+[2022-08-09 10:17:13.390] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 10:17:22.648] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-09 10:17:23.043] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-09 10:17:23.470] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-09 10:17:23.566] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-09 10:21:04.068] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Creating A Users Pet Profile...
+[2022-08-09 10:21:04.548] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-09 10:21:04.633] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-09 10:21:05.736] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-09 10:21:05.841] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-09 10:22:53.292] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-09 10:22:53.731] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-09 10:28:01.266] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 10:28:10.607] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-09 10:28:10.971] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-09 10:28:11.450] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-09 10:28:11.563] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-09 10:28:47.577] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-09 10:28:47.902] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-09 10:28:54.659] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-09 10:28:54.765] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-09 10:28:55.042] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-09 10:28:55.125] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-09 10:28:56.909] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-09 10:28:57.157] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-09 12:51:46.228] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 12:52:39.457] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-09 12:52:39.804] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-09 12:52:40.184] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-09 12:52:40.242] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-09 12:57:03.823] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-09 12:57:05.891] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-09 12:57:06.259] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-09 12:57:06.374] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-09 12:57:13.905] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Getting List of Groomings...
+[2022-08-09 12:57:14.176] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Getting List of Groomings...
+[2022-08-09 12:57:18.761] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-09 12:57:19.177] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-09 12:57:27.864] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-09 12:57:28.146] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-09 12:59:26.201] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 12:59:37.092] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-09 12:59:37.381] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-09 12:59:37.667] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-09 12:59:37.731] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-09 18:42:59.942] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 18:43:06.326] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 18:43:22.475] [Information]  () <Petify.WebApi.Controllers.ManageGroomingController> Getting List of Groomings...
+[2022-08-09 18:43:22.766] [Error]  () <Microsoft.EntityFrameworkCore.Database.Command> Failed executing DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [g].[Id], [g].[BillingId], [g].[Created], [g].[CreatedBy], [g].[ServiceId], [g].[UserId]
+FROM [Grooming] AS [g]"
+[2022-08-09 18:43:24.116] [Error]  () <Microsoft.EntityFrameworkCore.Query> An exception occurred while iterating over the results of a query for context type '"Petify.Data.DBModels.PetifyLiveContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Grooming'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__19_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:0faecbb9-27a2-4948-98bc-ac3586b3aba2
+Error Number:208,State:1,Class:16"
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Grooming'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__19_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:0faecbb9-27a2-4948-98bc-ac3586b3aba2
+Error Number:208,State:1,Class:16
+[2022-08-09 19:41:02.193] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 19:41:05.904] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 19:41:06.445] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 19:41:06.656] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 19:41:28.287] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-09 19:41:32.753] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-09 19:41:32.949] [Error]  () <Microsoft.EntityFrameworkCore.Database.Command> Failed executing DbCommand ("19"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [f].[Id], [f].[Created], [f].[CreatedBy], [f].[Message], [f].[UserId]
+FROM [FeedBack] AS [f]"
+[2022-08-09 19:41:32.991] [Error]  () <Microsoft.EntityFrameworkCore.Query> An exception occurred while iterating over the results of a query for context type '"Petify.Data.DBModels.PetifyLiveContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'FeedBack'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__19_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:ee9c58e1-c209-4571-9d69-fca13341f45f
+Error Number:208,State:1,Class:16"
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'FeedBack'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__19_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:ee9c58e1-c209-4571-9d69-fca13341f45f
+Error Number:208,State:1,Class:16
+[2022-08-10 13:55:02.476] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-10 13:55:48.093] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Getting all users...
+[2022-08-10 13:56:27.030] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Getting all users by Id
+[2022-08-10 13:58:04.379] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Getting all users by Id
+[2022-08-10 13:58:31.978] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-10 14:19:15.383] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-10 14:19:49.133] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-10 14:19:57.866] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-10 14:20:48.354] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Admin is creating an allergy....
+[2022-08-10 14:20:48.571] [Error]  () <Microsoft.EntityFrameworkCore.Database.Command> Failed executing DbCommand ("49"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Allergies] ([Id], [AllergyName])
+VALUES (@p0, @p1);"
+[2022-08-10 14:20:49.046] [Error]  () <Microsoft.EntityFrameworkCore.Update> An exception occurred in the database while saving changes for context type '"Petify.Data.DBModels.PetifyLiveContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Allergies' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d37e9386-fec1-4cd8-8a80-7d83ebe4f338
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Allergies' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d37e9386-fec1-4cd8-8a80-7d83ebe4f338
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+[2022-08-10 14:20:49.499] [Error]  () <Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware> An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Allergies' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d37e9386-fec1-4cd8-8a80-7d83ebe4f338
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Petify.Facade.AllergiesItem.SaveAllergy(Allergy value) in C:\Users\IGWILO OBIORA\source\repos\Petify\Petify.Facade\AllergiesItem.cs:line 64
+   at Petify.WebApi.Controllers.ManageAllergiesController.CreateAllergy(PetAllergyViewModel model) in C:\Users\IGWILO OBIORA\source\repos\Petify\Petify.WebApi\Controllers\ManageAllergiesController.cs:line 43
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-08-10 14:21:09.914] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Admin is creating an allergy....
+[2022-08-10 14:21:09.934] [Error]  () <Microsoft.EntityFrameworkCore.Database.Command> Failed executing DbCommand ("7"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Allergies] ([Id], [AllergyName])
+VALUES (@p0, @p1);"
+[2022-08-10 14:21:09.938] [Error]  () <Microsoft.EntityFrameworkCore.Update> An exception occurred in the database while saving changes for context type '"Petify.Data.DBModels.PetifyLiveContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Allergies' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d37e9386-fec1-4cd8-8a80-7d83ebe4f338
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Allergies' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d37e9386-fec1-4cd8-8a80-7d83ebe4f338
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+[2022-08-10 14:21:10.015] [Error]  () <Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware> An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Allergies' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d37e9386-fec1-4cd8-8a80-7d83ebe4f338
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Petify.Facade.AllergiesItem.SaveAllergy(Allergy value) in C:\Users\IGWILO OBIORA\source\repos\Petify\Petify.Facade\AllergiesItem.cs:line 64
+   at Petify.WebApi.Controllers.ManageAllergiesController.CreateAllergy(PetAllergyViewModel model) in C:\Users\IGWILO OBIORA\source\repos\Petify\Petify.WebApi\Controllers\ManageAllergiesController.cs:line 43
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-08-10 14:27:16.524] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-10 14:28:18.703] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-10 14:28:34.701] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Admin is creating an allergy....
+[2022-08-10 14:43:51.829] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Admin is creating an allergy....
+[2022-08-10 14:47:57.477] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Admin is creating an allergy....
+[2022-08-10 14:48:21.830] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Admin is creating an allergy....
+[2022-08-10 14:48:47.999] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Admin is creating an allergy....
+[2022-08-10 14:49:25.160] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Admin is creating an allergy....
+[2022-08-10 14:50:17.210] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Admin is creating an allergy....
+[2022-08-10 14:51:09.463] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-10 14:51:59.567] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting Allergy by Id
+[2022-08-10 14:52:58.800] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Updating Allergy List....
+[2022-08-10 14:53:39.428] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Updating Allergy List....
+[2022-08-10 14:54:43.894] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Updating Allergy List....
+[2022-08-10 14:55:25.828] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Updating Allergy List....
+[2022-08-10 14:58:30.140] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-10 15:23:49.841] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-10 15:28:05.006] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Creating A Users Pet Profile...
+[2022-08-10 15:29:43.233] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting A Pet Profile By Id...
+[2022-08-10 15:32:28.029] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Updating A pet Profile...
+[2022-08-10 15:33:35.397] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-10 15:33:56.964] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-10 15:45:58.700] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> User is Writing us a Feedback...
+[2022-08-10 15:47:07.031] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-10 15:47:22.063] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-10 15:47:34.891] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting Feedbacks by Id...
+[2022-08-10 16:02:12.093] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-10 16:03:15.643] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Creating A Service...
+[2022-08-10 16:03:43.983] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Creating A Service...
+[2022-08-10 16:04:01.340] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-10 16:04:19.149] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting Services by Id...
+[2022-08-10 16:05:02.265] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Updating Services...
+[2022-08-10 16:05:14.552] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-10 16:05:21.188] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-10 16:05:26.655] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-10 16:05:53.481] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-10 16:10:08.313] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Updating Services...
+[2022-08-10 16:10:15.766] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-10 16:12:28.363] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Updating Services...
+[2022-08-10 16:12:41.511] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-10 16:18:11.941] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Updating Services...
+[2022-08-10 16:18:26.755] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-10 16:19:07.910] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting Services by Id...
+[2022-08-11 09:58:09.522] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-11 10:00:33.367] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Booking for your pet to stay...
+[2022-08-11 10:01:41.667] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-11 10:02:16.995] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting Booking By Id...
+[2022-08-11 11:54:54.999] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-11 11:57:19.739] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> User is Checking In...
+[2022-08-11 11:57:21.272] [Error]  () <Microsoft.EntityFrameworkCore.Database.Command> Failed executing DbCommand ("710"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 450), @p3='?' (DbType = DateTime), @p4='?' (DbType = Int32), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTime), @p7='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Checkings] ([BookingId], [Created], [CreatedBy], [EndDate], [PetId], [ServiceId], [StartDate], [Status])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id]
+FROM [Checkings]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+[2022-08-11 11:57:22.131] [Error]  () <Microsoft.EntityFrameworkCore.Update> An exception occurred in the database while saving changes for context type '"Petify.Data.DBModels.PetifyLiveContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Checkings_Bookings\". The conflict occurred in database \"PetifyLive\", table \"dbo.Bookings\", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:1bcb672d-bfd4-4c65-96b5-55f3330f74c2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Checkings_Bookings". The conflict occurred in database "PetifyLive", table "dbo.Bookings", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:1bcb672d-bfd4-4c65-96b5-55f3330f74c2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+[2022-08-11 11:57:22.701] [Error]  () <Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware> An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Checkings_Bookings". The conflict occurred in database "PetifyLive", table "dbo.Bookings", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:1bcb672d-bfd4-4c65-96b5-55f3330f74c2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Petify.Facade.CheckingService.SaveChecking(Checking value) in C:\Users\IGWILO OBIORA\source\repos\Petify\Petify.Facade\CheckingService.cs:line 61
+   at Petify.WebApi.Controllers.ManageCheckingController.CreateChecking(CheckingViewModel model) in C:\Users\IGWILO OBIORA\source\repos\Petify\Petify.WebApi\Controllers\ManageCheckingController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-08-11 12:00:04.032] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> User is Checking In...
+[2022-08-11 12:00:04.210] [Error]  () <Microsoft.EntityFrameworkCore.Database.Command> Failed executing DbCommand ("153"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 450), @p3='?' (DbType = DateTime), @p4='?' (DbType = Int32), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTime), @p7='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Checkings] ([BookingId], [Created], [CreatedBy], [EndDate], [PetId], [ServiceId], [StartDate], [Status])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id]
+FROM [Checkings]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+[2022-08-11 12:00:04.216] [Error]  () <Microsoft.EntityFrameworkCore.Update> An exception occurred in the database while saving changes for context type '"Petify.Data.DBModels.PetifyLiveContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Checkings_Bookings\". The conflict occurred in database \"PetifyLive\", table \"dbo.Bookings\", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:1bcb672d-bfd4-4c65-96b5-55f3330f74c2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Checkings_Bookings". The conflict occurred in database "PetifyLive", table "dbo.Bookings", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:1bcb672d-bfd4-4c65-96b5-55f3330f74c2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+[2022-08-11 12:00:04.363] [Error]  () <Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware> An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Checkings_Bookings". The conflict occurred in database "PetifyLive", table "dbo.Bookings", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:1bcb672d-bfd4-4c65-96b5-55f3330f74c2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Petify.Facade.CheckingService.SaveChecking(Checking value) in C:\Users\IGWILO OBIORA\source\repos\Petify\Petify.Facade\CheckingService.cs:line 61
+   at Petify.WebApi.Controllers.ManageCheckingController.CreateChecking(CheckingViewModel model) in C:\Users\IGWILO OBIORA\source\repos\Petify\Petify.WebApi\Controllers\ManageCheckingController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-08-11 12:00:48.735] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> User is Checking In...
+[2022-08-11 12:00:48.748] [Error]  () <Microsoft.EntityFrameworkCore.Database.Command> Failed executing DbCommand ("9"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 450), @p3='?' (DbType = DateTime), @p4='?' (DbType = Int32), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTime), @p7='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Checkings] ([BookingId], [Created], [CreatedBy], [EndDate], [PetId], [ServiceId], [StartDate], [Status])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id]
+FROM [Checkings]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+[2022-08-11 12:00:48.752] [Error]  () <Microsoft.EntityFrameworkCore.Update> An exception occurred in the database while saving changes for context type '"Petify.Data.DBModels.PetifyLiveContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Checkings_Bookings\". The conflict occurred in database \"PetifyLive\", table \"dbo.Bookings\", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:1bcb672d-bfd4-4c65-96b5-55f3330f74c2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Checkings_Bookings". The conflict occurred in database "PetifyLive", table "dbo.Bookings", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:1bcb672d-bfd4-4c65-96b5-55f3330f74c2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+[2022-08-11 12:00:48.926] [Error]  () <Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware> An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Checkings_Bookings". The conflict occurred in database "PetifyLive", table "dbo.Bookings", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:1bcb672d-bfd4-4c65-96b5-55f3330f74c2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Petify.Facade.CheckingService.SaveChecking(Checking value) in C:\Users\IGWILO OBIORA\source\repos\Petify\Petify.Facade\CheckingService.cs:line 61
+   at Petify.WebApi.Controllers.ManageCheckingController.CreateChecking(CheckingViewModel model) in C:\Users\IGWILO OBIORA\source\repos\Petify\Petify.WebApi\Controllers\ManageCheckingController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-08-11 12:01:23.374] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-11 12:01:35.893] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting Checking By Id...
+[2022-08-11 14:02:51.150] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> User is Checking In...
+[2022-08-11 14:44:48.597] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-11 14:47:43.816] [Information]  () <Petify.WebApi.Controllers.ManageBillingController> Creating Billing...
+[2022-08-11 14:47:55.186] [Information]  () <Petify.WebApi.Controllers.ManageBillingController> Getting List of Billings...
+[2022-08-11 14:48:08.524] [Information]  () <Petify.WebApi.Controllers.ManageBillingController> Getting Billing Price Unit by Id...
+[2022-08-11 14:49:01.666] [Information]  () <Petify.WebApi.Controllers.ManageBillingController> Updating a Billing Price Unit...
+[2022-08-11 14:49:13.515] [Information]  () <Petify.WebApi.Controllers.ManageBillingController> Getting List of Billings...
+[2022-08-11 14:49:18.264] [Information]  () <Petify.WebApi.Controllers.ManageBillingController> Getting List of Billings...
+[2022-08-11 14:49:29.530] [Information]  () <Petify.WebApi.Controllers.ManageBillingController> Getting List of Billings...
+[2022-08-11 14:52:28.233] [Information]  () <Petify.WebApi.Controllers.ManageBillingController> Updating a Billing Price Unit...
+[2022-08-11 14:58:11.988] [Information]  () <Petify.WebApi.Controllers.ManageBillingController> Updating a Billing Price Unit...
+[2022-08-11 16:16:47.233] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-11 16:17:00.996] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-11 16:17:04.205] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-11 16:17:05.285] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-11 16:17:05.964] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-11 16:19:33.511] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-11 16:23:21.074] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-11 16:27:36.179] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-11 16:29:07.997] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-11 16:38:22.634] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 10:08:08.419] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 10:08:49.965] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-12 10:08:54.597] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-12 10:19:23.494] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 10:19:39.209] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-12 10:19:39.875] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-12 10:24:49.589] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 10:25:42.492] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-12 10:27:32.236] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-12 10:27:46.563] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-12 10:27:49.124] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-12 10:30:33.062] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Creating A Users Pet Profile...
+[2022-08-12 10:30:37.451] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-12 10:30:38.786] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-12 10:30:40.724] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-12 10:30:43.324] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-12 11:42:17.943] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 11:42:31.691] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 11:42:32.625] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 11:44:15.252] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 11:44:15.684] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 11:44:20.065] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 11:44:20.326] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 11:48:08.711] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 11:48:11.856] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 11:52:39.355] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 11:53:32.176] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 11:54:24.509] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 11:54:39.036] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 11:54:39.056] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 11:55:35.178] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 11:55:37.442] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 11:57:39.496] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 11:57:52.814] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 11:57:54.120] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 11:57:54.962] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 11:57:55.680] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:04:11.456] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 12:04:17.875] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:04:20.079] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:04:21.713] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:04:22.862] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:04:36.341] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Booking for your pet to stay...
+[2022-08-12 12:04:36.734] [Error]  () <Microsoft.EntityFrameworkCore.Database.Command> Failed executing DbCommand ("153"ms) [Parameters=["@p0='?' (DbType = DateTime), @p1='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Bookings] ([Created], [CreatedBy], [PetId], [ServiceId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Bookings]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+[2022-08-12 12:04:37.272] [Error]  () <Microsoft.EntityFrameworkCore.Update> An exception occurred in the database while saving changes for context type '"Petify.Data.DBModels.PetifyLiveContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Bookings_Services\". The conflict occurred in database \"PetifyLive\", table \"dbo.Services\", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:9abfdf1e-79e3-4984-b644-98bb8aee5d17
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Bookings_Services". The conflict occurred in database "PetifyLive", table "dbo.Services", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:9abfdf1e-79e3-4984-b644-98bb8aee5d17
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+[2022-08-12 12:04:37.500] [Error]  () <Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware> An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Bookings_Services". The conflict occurred in database "PetifyLive", table "dbo.Services", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:9abfdf1e-79e3-4984-b644-98bb8aee5d17
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Petify.Facade.BookingService.SaveBooking(Booking value) in C:\Users\IGWILO OBIORA\source\repos\Petify\Petify.Facade\BookingService.cs:line 62
+   at Petify.WebApi.Controllers.ManageBookingController.RequestBookingService(BookingViewModel model) in C:\Users\IGWILO OBIORA\source\repos\Petify\Petify.WebApi\Controllers\ManageBookingController.cs:line 47
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-08-12 12:04:41.423] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:04:45.276] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:04:47.230] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:04:51.777] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:06:10.016] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 12:06:19.382] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:06:19.719] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:06:20.009] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:06:20.056] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:06:39.916] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Booking for your pet to stay...
+[2022-08-12 12:06:48.578] [Error]  () <Microsoft.EntityFrameworkCore.Database.Command> Failed executing DbCommand ("7"ms) [Parameters=["@p0='?' (DbType = DateTime), @p1='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Bookings] ([Created], [CreatedBy], [PetId], [ServiceId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Bookings]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+[2022-08-12 12:06:48.622] [Error]  () <Microsoft.EntityFrameworkCore.Update> An exception occurred in the database while saving changes for context type '"Petify.Data.DBModels.PetifyLiveContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Bookings_Services\". The conflict occurred in database \"PetifyLive\", table \"dbo.Services\", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:ecc3419c-16df-4787-8280-fbe3f876c167
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Bookings_Services". The conflict occurred in database "PetifyLive", table "dbo.Services", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:ecc3419c-16df-4787-8280-fbe3f876c167
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+[2022-08-12 12:06:48.765] [Error]  () <Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware> An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Bookings_Services". The conflict occurred in database "PetifyLive", table "dbo.Services", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:ecc3419c-16df-4787-8280-fbe3f876c167
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__104_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Petify.Facade.BookingService.SaveBooking(Booking value) in C:\Users\IGWILO OBIORA\source\repos\Petify\Petify.Facade\BookingService.cs:line 62
+   at Petify.WebApi.Controllers.ManageBookingController.RequestBookingService(BookingViewModel model) in C:\Users\IGWILO OBIORA\source\repos\Petify\Petify.WebApi\Controllers\ManageBookingController.cs:line 47
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-08-12 12:06:48.947] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:06:49.032] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:06:49.232] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:06:49.313] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:07:36.866] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 12:07:43.792] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:07:44.153] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:07:44.606] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:07:44.673] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:08:25.565] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Booking for your pet to stay...
+[2022-08-12 12:13:54.817] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 12:14:05.854] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:14:06.166] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:14:06.350] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:14:06.395] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:17:53.029] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:17:55.443] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:17:55.922] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:17:56.108] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:18:07.702] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 12:18:18.093] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:18:18.163] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:18:18.332] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:18:18.408] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:19:39.019] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Booking for your pet to stay...
+[2022-08-12 12:21:06.189] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:21:06.294] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 12:21:06.434] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 12:21:06.501] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 13:14:17.568] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 13:14:42.358] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:14:46.387] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:17:47.169] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 13:18:12.429] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:18:18.487] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:20:00.895] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:20:44.016] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:21:13.413] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:21:15.351] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:27:54.838] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 13:28:26.169] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:28:29.659] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:29:14.927] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:29:45.744] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:42:57.217] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 13:43:17.206] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:43:30.679] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:44:24.558] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:44:26.347] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:44:32.751] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 13:44:47.385] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:44:52.965] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:45:11.617] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:45:27.430] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:50:04.582] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 13:50:56.534] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:51:02.367] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:51:14.932] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 13:51:22.663] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 14:02:01.832] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 14:02:12.642] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 14:02:13.120] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 14:04:22.218] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 14:04:30.573] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 14:04:31.185] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 14:05:45.582] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 14:05:51.806] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 14:05:52.310] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 14:08:17.441] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 14:08:19.752] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 14:10:56.543] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 14:11:03.851] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 14:11:04.309] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 14:13:44.609] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 14:13:51.025] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 14:13:51.568] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 14:22:24.934] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 14:22:31.613] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 14:22:32.080] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 14:22:48.533] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> User is Writing us a Feedback...
+[2022-08-12 14:22:48.971] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 14:22:49.155] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 15:12:31.143] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 15:13:57.062] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-12 15:13:57.940] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-12 15:15:37.394] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 15:15:50.651] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-12 15:15:51.229] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-12 15:17:04.980] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> User is Checking In...
+[2022-08-12 15:17:46.446] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-12 15:17:46.662] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-12 15:29:31.965] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 15:29:38.051] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-12 15:29:38.190] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-12 15:29:38.355] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-12 15:29:38.399] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-12 15:29:38.586] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-12 15:29:38.667] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-12 15:29:52.866] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 15:29:53.037] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 15:29:53.354] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 15:29:53.465] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 15:30:21.222] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-12 15:30:21.287] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-12 15:30:21.561] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-12 15:30:21.634] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-12 15:30:32.645] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 15:30:32.703] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 15:30:32.934] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 15:30:33.016] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 15:30:58.719] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-12 15:30:58.954] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-12 15:31:03.503] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 15:31:03.569] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 15:31:03.721] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-12 15:31:03.785] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-12 15:31:11.889] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 15:31:12.223] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 15:35:21.506] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-12 15:35:21.578] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-12 15:35:21.780] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-12 15:35:21.825] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-12 15:35:50.137] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 15:41:21.202] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 15:41:28.223] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 15:41:28.778] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 15:41:37.844] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> User is Writing us a Feedback...
+[2022-08-12 15:41:38.297] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 15:41:38.505] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-12 16:19:23.464] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 16:23:45.698] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 16:27:29.708] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 16:30:54.413] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 16:34:25.607] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-12 16:35:03.567] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 11:17:31.026] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 11:18:26.771] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 11:18:45.329] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 11:18:45.901] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 11:18:45.966] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 11:18:54.892] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 11:21:07.151] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 16:30:42.623] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 16:31:33.517] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 16:31:33.848] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 16:31:34.283] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 16:31:34.354] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 16:31:37.227] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-13 16:31:37.400] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-13 16:31:37.680] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-13 16:31:37.730] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-13 16:31:39.926] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-13 16:31:40.174] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-13 16:31:50.195] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 16:42:32.672] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 16:42:36.484] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 16:42:39.250] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 16:43:45.235] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 16:43:48.556] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 16:43:48.827] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 16:46:01.061] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 16:46:14.835] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 16:46:23.427] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 16:46:48.838] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 16:46:54.975] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 16:46:55.247] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 16:47:18.280] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 16:47:25.423] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 16:47:27.496] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 17:08:08.200] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 17:08:57.700] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 17:09:00.789] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 17:09:04.545] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 17:09:49.577] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> User is Writing us a Feedback...
+[2022-08-13 17:09:49.868] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 17:09:50.111] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 17:10:00.212] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 17:10:02.505] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 17:10:02.775] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 17:11:20.195] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 17:11:27.379] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 17:11:30.075] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 17:11:49.307] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 17:11:58.216] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 17:12:13.056] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 17:12:18.204] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 17:12:18.419] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 17:12:34.953] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 17:12:35.203] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 17:12:35.717] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 17:12:35.781] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 17:13:34.792] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-13 17:13:35.006] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-13 17:13:35.243] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-13 17:13:35.324] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-13 17:13:45.721] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-13 17:13:46.081] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-13 18:10:39.417] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 18:11:22.222] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:11:22.637] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:11:23.232] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:11:23.361] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:11:57.867] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:11:58.031] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting A Pet Profile By Id...
+[2022-08-13 18:11:58.313] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:11:58.391] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting A Pet Profile By Id...
+[2022-08-13 18:12:15.141] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:12:15.207] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:12:15.392] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:12:15.478] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:17:16.217] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 18:17:39.133] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:17:39.567] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:17:40.123] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:17:40.180] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:18:25.245] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:18:49.344] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting A Pet Profile By Id...
+[2022-08-13 18:19:24.750] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:19:30.903] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting A Pet Profile By Id...
+[2022-08-13 18:20:19.239] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Updating A pet Profile...
+[2022-08-13 18:22:08.551] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:22:08.610] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:22:08.781] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:22:08.864] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:22:25.137] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:22:25.199] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting A Pet Profile By Id...
+[2022-08-13 18:22:29.637] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:22:29.715] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting A Pet Profile By Id...
+[2022-08-13 18:22:47.974] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Updating A pet Profile...
+[2022-08-13 18:22:48.312] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:22:48.417] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:22:48.616] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:22:48.720] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:25:04.721] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 18:25:19.667] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:25:20.216] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:25:20.652] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:25:20.740] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:35:45.190] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 18:36:01.430] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-13 18:36:02.093] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-13 18:36:05.868] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-13 18:36:06.001] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-13 18:36:28.620] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 18:36:35.662] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-13 18:36:35.738] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-13 18:36:35.976] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-13 18:36:36.030] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-13 18:50:29.641] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 18:50:38.592] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:50:39.064] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:50:42.657] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:50:42.750] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:53:12.036] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 18:53:18.238] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:53:18.637] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:53:21.549] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:53:21.634] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:53:34.039] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 18:53:42.558] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:53:42.658] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:53:42.976] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:53:43.049] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:55:44.010] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 18:55:52.039] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:55:52.577] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:55:55.328] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:55:55.443] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:56:12.193] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-13 18:56:12.400] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-13 18:56:12.698] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-13 18:56:12.742] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-13 18:56:14.855] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-13 18:56:15.257] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-13 18:56:18.226] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 18:56:18.550] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 18:56:27.119] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-13 18:56:35.236] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:56:35.282] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:56:35.674] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-13 18:56:35.732] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-13 18:56:37.602] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-13 18:56:37.696] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-13 18:56:37.890] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-13 18:56:37.953] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-13 18:56:46.769] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-13 18:56:46.967] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-13 18:56:50.830] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-13 18:56:50.992] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-14 20:37:15.896] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-14 20:38:10.137] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-14 20:38:10.793] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-14 20:38:15.526] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-14 20:38:15.622] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-14 20:39:11.630] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-14 20:39:11.796] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-14 20:39:12.123] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-14 20:39:12.232] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-14 20:39:14.979] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-14 20:39:15.388] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-14 20:39:18.083] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-14 20:39:18.398] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-14 20:39:40.737] [Information]  () <Petify.WebApi.Controllers.HumanAccountController> Login Was Successful!
+[2022-08-14 20:39:48.544] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-14 20:39:48.613] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-14 20:39:48.941] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-14 20:39:49.061] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-14 20:40:52.638] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-14 20:40:52.708] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-14 20:40:52.955] [Information]  () <Petify.WebApi.Controllers.ManageServicesController> Getting List of Services...
+[2022-08-14 20:40:53.042] [Information]  () <Petify.WebApi.Controllers.ManageBookingController> Getting List of Bookings...
+[2022-08-14 20:41:00.423] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-14 20:41:00.612] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-14 20:41:04.762] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-14 20:41:04.985] [Information]  () <Petify.WebApi.Controllers.ManageFeedbackController> Getting All Feedbacks...
+[2022-08-14 20:41:09.577] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-14 20:41:09.851] [Information]  () <Petify.WebApi.Controllers.ManageCheckingController> Getting List of All Checkings...
+[2022-08-14 20:41:12.368] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-14 20:41:12.433] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
+[2022-08-14 20:41:12.718] [Information]  () <Petify.WebApi.Controllers.ManageAllergiesController> Getting all Allergies....
+[2022-08-14 20:41:12.787] [Information]  () <Petify.WebApi.Controllers.ManagePetProfileController> Getting List of All Pet profiles..
